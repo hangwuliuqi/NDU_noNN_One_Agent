@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.env
+.venv/
+venv/
+runtime/
+data/initial_samples/*.csv
+data/initial_samples/*.json
+!data/initial_samples/manifest.example.json
+

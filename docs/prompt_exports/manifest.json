@@ -1,0 +1,23 @@
+[
+  {
+    "file": "parquet_40_sampling.txt",
+    "state": "First sampling turn in a new run, before any new HFSS simulation.",
+    "samples_in_user_prompt": 20,
+    "system_characters": 63,
+    "user_characters": 11843,
+    "sha256": "9b74f7ebfcb13bd2e1d394b2dd6bf495772171254c199be1d53c9aab64b41e63"
+  },
+  {
+    "file": "zero_start_sampling.txt",
+    "state": "First sampling turn in a new run, before any new HFSS simulation.",
+    "samples_in_user_prompt": 0,
+    "system_characters": 63,
+    "user_characters": 7882,
+    "sha256": "3cd4d811a46bf703db34e0b37fa904a3927443d9a896f9d233dd90500bbda017"
+  },
+  {
+    "file": "preflight.txt",
+    "state": "Sent once per LLM module before formal optimization calls when preflight is enabled.",
+    "sha256": "958749010f441d722e250c484bdfa46d1da591ca1be76f1d6a578cb94155c08d"
+  }
+]

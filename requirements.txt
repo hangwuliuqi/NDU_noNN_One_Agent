@@ -1,0 +1,9 @@
+numpy>=1.24
+pandas>=2.0
+pyarrow>=14.0
+scipy>=1.10
+pyhocon>=0.3.61
+openai>=1.30
+ele-sim-client
+ele-sim-core
+pytest>=8.0

@@ -1,0 +1,190 @@
+[
+  {
+    "iteration": 1,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 23.5,
+        "l2": 15.0,
+        "l3": 35.0,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "Rank 1 is the strongest supplied design with a deep low resonance at 2.45 GHz and useful high-band matching at 4.50 GHz, but its detected high resonance appears slightly high at 4.53 GHz. Since the upper-slot length l1 is a plausible high-band tuning lever in this slot-loaded antenna, increasing it from 22.50 mm to 23.50 mm should electrically lengthen the high-frequency current path and shift that resonance down toward 4.50 GHz. The remaining geometry is kept close to rank 1 to preserve the low resonance near 2.45 GHz and its strong coupling, which should maintain target-frequency S11 below -15 dB at both 2.45 and 4.50 GHz after evaluation."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 23.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 23.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "Rank 1 is the strongest supplied design with a deep low resonance at 2.45 GHz and useful high-band matching at 4.50 GHz, but its detected high resonance appears slightly high at 4.53 GHz. Since the upper-slot length l1 is a plausible high-band tuning lever in this slot-loaded antenna, increasing it from 22.50 mm to 23.50 mm should electrically lengthen the high-frequency current path and shift that resonance down toward 4.50 GHz. The remaining geometry is kept close to rank 1 to preserve the low resonance near 2.45 GHz and its strong coupling, which should maintain target-frequency S11 below -15 dB at both 2.45 and 4.50 GHz after evaluation.",
+    "error": null
+  },
+  {
+    "iteration": 1,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 24.0,
+        "l2": 15.0,
+        "l3": 34.0,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "This proposal also starts from the rank 1 geometry because it already provides a deep low resonance at 2.45 GHz and strong 4.50 GHz target matching, but it shifts the high resonance downward by increasing l1 from 22.50 mm to 24.00 mm. A slightly shorter l3 is used to compensate, since reducing lower-slot length can raise the lower resonance and help keep it inside the 2.44-2.46 GHz window after the longer l1 pushes frequencies downward. The combined changes aim to place the two actual resonances at approximately 2.45 GHz and 4.50 GHz while retaining the coupling and impedance matching that made rank 1 effective."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 24.0,
+      "l2": 15.0,
+      "l3": 34.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 24.0,
+      "l2": 15.0,
+      "l3": 34.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "This proposal also starts from the rank 1 geometry because it already provides a deep low resonance at 2.45 GHz and strong 4.50 GHz target matching, but it shifts the high resonance downward by increasing l1 from 22.50 mm to 24.00 mm. A slightly shorter l3 is used to compensate, since reducing lower-slot length can raise the lower resonance and help keep it inside the 2.44-2.46 GHz window after the longer l1 pushes frequencies downward. The combined changes aim to place the two actual resonances at approximately 2.45 GHz and 4.50 GHz while retaining the coupling and impedance matching that made rank 1 effective.",
+    "error": null
+  },
+  {
+    "iteration": 2,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.6,
+        "l2": 15.0,
+        "l3": 35.0,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "The rank:1 sample is the closest to the target, with a strong low-band match at 2.45 GHz and the 4.50 GHz target S11 already near the threshold, but its high resonance is slightly above the desired 4.49-4.51 GHz band. Comparing rank:1 with rank:3 shows that a small increase in the upper slot length l1 lowers the high-band resonance substantially, so this design increases l1 by only 0.10 mm relative to rank:1 to shift that high resonance slightly downward without disturbing the low resonance. All other dimensions are kept identical to rank:1 because its substrate size, middle slot, lower slot, and feed length already produce favorable current paths, coupling, and input matching at the fixed target frequencies. The small l1 increase is intended to place the high resonance inside the required window while preserving the low-band resonance and improving the 4.50 GHz S11 through better alignment of the resonance valley."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.6,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.6,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "The rank:1 sample is the closest to the target, with a strong low-band match at 2.45 GHz and the 4.50 GHz target S11 already near the threshold, but its high resonance is slightly above the desired 4.49-4.51 GHz band. Comparing rank:1 with rank:3 shows that a small increase in the upper slot length l1 lowers the high-band resonance substantially, so this design increases l1 by only 0.10 mm relative to rank:1 to shift that high resonance slightly downward without disturbing the low resonance. All other dimensions are kept identical to rank:1 because its substrate size, middle slot, lower slot, and feed length already produce favorable current paths, coupling, and input matching at the fixed target frequencies. The small l1 increase is intended to place the high resonance inside the required window while preserving the low-band resonance and improving the 4.50 GHz S11 through better alignment of the resonance valley.",
+    "error": null
+  },
+  {
+    "iteration": 2,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.67,
+        "l2": 15.0,
+        "l3": 35.0,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "This second design uses the same conservative design logic based on the strong rank:1 geometry, increasing l1 by 0.17 mm rather than by larger amounts such as the 1.00 mm change between rank:1 and rank:3 that moved the high resonance too far downward. The slightly longer upper slot should make the high-frequency current path a little longer and lower the high resonance toward the required 4.49-4.51 GHz band, while the unchanged lower-slot and feed-line dimensions help retain the useful low-band resonance and target-frequency match observed in the top-ranked sample. The slot widths and substrate dimensions are retained to avoid disrupting the coupling and impedance matching behavior that already gives an excellent 2.45 GHz S11 and an almost satisfactory 4.50 GHz S11 in the reference sample."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.67,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.67,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "This second design uses the same conservative design logic based on the strong rank:1 geometry, increasing l1 by 0.17 mm rather than by larger amounts such as the 1.00 mm change between rank:1 and rank:3 that moved the high resonance too far downward. The slightly longer upper slot should make the high-frequency current path a little longer and lower the high resonance toward the required 4.49-4.51 GHz band, while the unchanged lower-slot and feed-line dimensions help retain the useful low-band resonance and target-frequency match observed in the top-ranked sample. The slot widths and substrate dimensions are retained to avoid disrupting the coupling and impedance matching behavior that already gives an excellent 2.45 GHz S11 and an almost satisfactory 4.50 GHz S11 in the reference sample.",
+    "error": null
+  }
+]

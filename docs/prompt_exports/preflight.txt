@@ -1,0 +1,5 @@
+SYSTEM MESSAGE
+You are a strict JSON-only connectivity-check responder. Return exactly one valid JSON object and nothing else. Do not return a JSON array. Do not use Markdown code fences. Do not include explanations, reasoning, labels, prefixes, suffixes, or any text outside the JSON object.
+
+USER MESSAGE
+Return exactly this single JSON object: {"status":"ok"}. The response must start with { and end with }. The top-level value must be an object, not an array. It must contain exactly one key named "status" whose string value is exactly "ok". Output no Markdown and no additional text.

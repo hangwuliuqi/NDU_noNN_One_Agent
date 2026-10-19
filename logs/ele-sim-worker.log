@@ -1,0 +1,465 @@
+2026-09-27 12:27:32+0800 [INFO] [ele_sim_worker.runtime] 开始扫描插件目录：E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\plugins
+2026-09-27 12:27:32+0800 [INFO] [ele_sim_worker.runtime] 发现插件：file=worker_simulation.py, simulation_type=NDUNSC_s11_desktop, version=1.0-llmo, max_runtime_seconds=3600.0
+2026-09-27 12:27:32+0800 [INFO] [ele_sim_worker.runtime] 开始验证 1 个插件的运行环境
+2026-09-27 12:27:34+0800 [INFO] [ele_sim_worker.runtime] 插件可用：simulation_type=NDUNSC_s11_desktop, version=1.0-llmo, max_runtime_seconds=3600.0, check_seconds=1.843
+2026-09-27 12:27:34+0800 [INFO] [ele_sim_worker.cli] 启动 Worker，worker_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c-79eb16e0a2a94ec6b2a42a499c359701, host_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c, worker_name=worker-2a499c359701, plugin_dir=./plugins, poll_seconds=5, log_file=logs/ele-sim-worker.log
+2026-09-27 12:27:34+0800 [INFO] [ele_sim_worker.runtime] Worker 正在初始化：worker_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c-79eb16e0a2a94ec6b2a42a499c359701, host_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c, worker_name=worker-2a499c359701, plugin_dir=E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\plugins, simulation_type=NDUNSC_s11_desktop, poll_seconds=5
+2026-09-27 12:27:36+0800 [INFO] [ele_sim_core.db] 数据库 schema 检查完成
+2026-09-27 12:27:36+0800 [INFO] [ele_sim_worker.runtime] Worker 启动完成：worker_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c-79eb16e0a2a94ec6b2a42a499c359701, host_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c, plugins=['NDUNSC_s11_desktop'], poll_seconds=5
+2026-09-27 12:28:26+0800 [INFO] [ele_sim_worker.runtime] 领取任务：task_id=93891b7b-2eb4-4790-90dd-a0f0c9fc71c3, simulation_type=NDUNSC_s11_desktop, attempt=1, payload_bytes=105, max_retries=3, timeout_seconds=3600
+2026-09-27 12:28:26+0800 [INFO] [ele_sim_worker.runtime] 开始执行任务：task_id=93891b7b-2eb4-4790-90dd-a0f0c9fc71c3, simulation_type=NDUNSC_s11_desktop, attempt=1, max_runtime_seconds=3600.0, deadline_at=2026-09-27T13:28:26.988378+08:00
+2026-09-27 12:28:26+0800 [INFO] [Global] Python version 3.10.18 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:08:55) [MSC v.1929 64 bit (AMD64)].
+2026-09-27 12:28:26+0800 [INFO] [Global] PyAEDT version 0.25.1.
+2026-09-27 12:28:26+0800 [INFO] [Global] Initializing new Desktop session.
+2026-09-27 12:28:26+0800 [INFO] [Global] AEDT version 2023.2.
+2026-09-27 12:28:30+0800 [INFO] [Global] New AEDT session is starting on gRPC port 59607.
+2026-09-27 12:28:33+0800 [INFO] [Global] Starting new AEDT gRPC session on port 59607.
+2026-09-27 12:28:33+0800 [INFO] [Global] Launching AEDT server with gRPC transport mode: wnua
+2026-09-27 12:29:06+0800 [INFO] [Global] Electronics Desktop started on gRPC port 59607 after 32.8 seconds.
+2026-09-27 12:29:06+0800 [INFO] [Global] AEDT installation Path E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64
+2026-09-27 12:29:06+0800 [INFO] [Global] Connected to AEDT gRPC session on port 59607.
+2026-09-27 12:29:07+0800 [INFO] [Global] Project NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1 has been created.
+2026-09-27 12:29:09+0800 [INFO] [Global] Added design 'NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1' of type HFSS.
+2026-09-27 12:29:09+0800 [INFO] [Global] AEDT objects correctly read
+2026-09-27 12:29:09+0800 [INFO] [Global] Modeler class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:29:09+0800 [INFO] [Global] Materials class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:29:09+0800 [INFO] [Global] Adding new material to the Project Library: FR4_Chen2006
+2026-09-27 12:29:09+0800 [INFO] [Global] Material has been added in Desktop.
+2026-09-27 12:29:10+0800 [INFO] [Global] Parsing design objects. This operation can take time
+2026-09-27 12:29:10+0800 [INFO] [Global] Refreshing bodies from Object Info
+2026-09-27 12:29:10+0800 [INFO] [Global] Bodies Info Refreshed Elapsed time: 0m 0sec
+2026-09-27 12:29:10+0800 [INFO] [Global] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+2026-09-27 12:29:10+0800 [INFO] [Global] Boundary Radiation Radiation has been created.
+2026-09-27 12:29:10+0800 [INFO] [Global] Boundary Wave Port P1_CPW has been created.
+2026-09-27 12:29:11+0800 [INFO] [Global] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1.aedt.
+2026-09-27 12:29:11+0800 [INFO] [Global] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1.aedt correctly loaded. Elapsed time: 0m 0sec
+2026-09-27 12:29:11+0800 [INFO] [Global] aedt file load time 0.020012855529785156
+2026-09-27 12:29:11+0800 [INFO] [Global] Linear step sweep Sweep_NDUNSC has been correctly created
+2026-09-27 12:29:11+0800 [INFO] [Global] Project NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1 Saved correctly
+2026-09-27 12:29:11+0800 [INFO] [Global] Solving design setup Setup_NDUNSC
+2026-09-27 12:29:19+0800 [ERROR] [Global] Error in Solving Setup Setup_NDUNSC
+2026-09-27 12:29:19+0800 [INFO] [Global] Design setup Setup_NDUNSC solved correctly in 0.0h 0.0m 8.0s
+2026-09-27 12:29:19+0800 [INFO] [Global] Project NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1 Saved correctly
+2026-09-27 12:29:19+0800 [INFO] [Global] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1.aedt.
+2026-09-27 12:29:19+0800 [INFO] [Global] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1.aedt correctly loaded. Elapsed time: 0m 0sec
+2026-09-27 12:29:19+0800 [INFO] [Global] aedt file load time 0.030425548553466797
+2026-09-27 12:29:20+0800 [INFO] [Global] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:29:20+0800 [INFO] [Global] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:29:20+0800 [INFO] [Global] Post class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:29:20+0800 [WARNING] [Global] No report category provided. Automatically identified Modal Solution Data
+2026-09-27 12:29:20+0800 [WARNING] [Global] Solution Data failed to load. Check solution, context or expression.
+2026-09-27 12:29:20+0800 [WARNING] [Global] No Data Available. Check inputs
+2026-09-27 12:29:20+0800 [INFO] [Global] Closing the AEDT Project NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1
+2026-09-27 12:29:21+0800 [INFO] [Global] Project NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1 closed correctly
+2026-09-27 12:29:23+0800 [INFO] [Global] Desktop has been released and closed.
+2026-09-27 12:29:44+0800 [ERROR] [ele_sim_worker.runtime] 任务执行失败：task_id=93891b7b-2eb4-4790-90dd-a0f0c9fc71c3, simulation_type=NDUNSC_s11_desktop, attempt=1, elapsed_seconds=77.078
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python310\site-packages\ele_sim_worker\runtime.py", line 398, in process_once
+    output = plugin.run(job.payload, context)
+  File "plugins\worker_simulation.py", line 35, in run
+    return run_hfss_simulation({name: float(payload[name]) for name in OPTIMIZATION_COLUMNS}, context=context)
+  File "E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\plugins\_lib\cpw_hfss_runner.py", line 80, in run_hfss_simulation
+    add_design_variables(hfss,sample); create_geometry(hfss); create_setup(hfss); hfss.save_project(); hfss.analyze_setup(str(c["setup_name"])); hfss.save_project(); frequency,s11=export_s11(hfss); return {"frequency_data":frequency,"s11_data":s11}
+  File "E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\plugins\_lib\cpw_hfss_runner.py", line 73, in export_s11
+    c=hfss_config(); expr=str(c["s11_expression"]); data=hfss.post.get_solution_data(expressions=expr,setup_sweep_name=str(c["sweep_name"])); values=data.get_expression_data(expr); return [float(v) for v in values[0]],[float(v) for v in values[1]]
+AttributeError: 'bool' object has no attribute 'get_expression_data'
+2026-09-27 12:29:44+0800 [INFO] [ele_sim_worker.runtime] 收到停止信号，Worker 正在退出：worker_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c-79eb16e0a2a94ec6b2a42a499c359701
+2026-09-27 12:29:44+0800 [ERROR] [sqlalchemy.pool.impl.QueuePool] Exception during reset or similar
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python310\site-packages\sqlalchemy\pool\base.py", line 986, in _finalize_fairy
+    fairy._reset(
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python310\site-packages\sqlalchemy\pool\base.py", line 1441, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python310\site-packages\sqlalchemy\engine\default.py", line 712, in do_rollback
+    dbapi_connection.rollback()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 512, in rollback
+    self._read_ok_packet()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 472, in _read_ok_packet
+    pkt = self._read_packet()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 810, in _read_bytes
+    data = self._rfile.read(num_bytes)
+  File "E:\ProgramFlies\Miniconda\Miniconda\envs\LimuPytorchCpu\lib\socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+  File "E:\ProgramFlies\Miniconda\Miniconda\envs\LimuPytorchCpu\lib\ssl.py", line 1307, in recv_into
+    return self.read(nbytes, buffer)
+  File "E:\ProgramFlies\Miniconda\Miniconda\envs\LimuPytorchCpu\lib\ssl.py", line 1163, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+2026-09-27 12:32:00+0800 [INFO] [ele_sim_worker.runtime] 开始扫描插件目录：E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\plugins
+2026-09-27 12:32:00+0800 [INFO] [ele_sim_worker.runtime] 发现插件：file=worker_simulation.py, simulation_type=NDUNSC_s11_desktop, version=1.0-llmo, max_runtime_seconds=3600.0
+2026-09-27 12:32:00+0800 [INFO] [ele_sim_worker.runtime] 开始验证 1 个插件的运行环境
+2026-09-27 12:32:01+0800 [INFO] [ele_sim_worker.runtime] 插件可用：simulation_type=NDUNSC_s11_desktop, version=1.0-llmo, max_runtime_seconds=3600.0, check_seconds=1.422
+2026-09-27 12:32:01+0800 [INFO] [ele_sim_worker.cli] 启动 Worker，worker_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c-7b7f557d5d6e46e6b25991fbb401d6a2, host_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c, worker_name=worker-91fbb401d6a2, plugin_dir=./plugins, poll_seconds=5, log_file=logs/ele-sim-worker.log
+2026-09-27 12:32:01+0800 [INFO] [ele_sim_worker.runtime] Worker 正在初始化：worker_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c-7b7f557d5d6e46e6b25991fbb401d6a2, host_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c, worker_name=worker-91fbb401d6a2, plugin_dir=E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\plugins, simulation_type=NDUNSC_s11_desktop, poll_seconds=5
+2026-09-27 12:32:03+0800 [INFO] [ele_sim_core.db] 数据库 schema 检查完成
+2026-09-27 12:32:03+0800 [INFO] [ele_sim_worker.runtime] Worker 启动完成：worker_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c-7b7f557d5d6e46e6b25991fbb401d6a2, host_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c, plugins=['NDUNSC_s11_desktop'], poll_seconds=5
+2026-09-27 12:34:44+0800 [INFO] [ele_sim_worker.runtime] 领取任务：task_id=d0c515ab-88d8-4be3-847d-7f9da516edc6, simulation_type=NDUNSC_s11_desktop, attempt=1, payload_bytes=105, max_retries=3, timeout_seconds=3600
+2026-09-27 12:34:44+0800 [INFO] [ele_sim_worker.runtime] 开始执行任务：task_id=d0c515ab-88d8-4be3-847d-7f9da516edc6, simulation_type=NDUNSC_s11_desktop, attempt=1, max_runtime_seconds=3600.0, deadline_at=2026-09-27T13:34:44.301364+08:00
+2026-09-27 12:34:44+0800 [INFO] [Global] Python version 3.10.18 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:08:55) [MSC v.1929 64 bit (AMD64)].
+2026-09-27 12:34:44+0800 [INFO] [Global] PyAEDT version 0.25.1.
+2026-09-27 12:34:44+0800 [INFO] [Global] Initializing new Desktop session.
+2026-09-27 12:34:44+0800 [INFO] [Global] AEDT version 2023.2.
+2026-09-27 12:34:47+0800 [INFO] [Global] New AEDT session is starting on gRPC port 56869.
+2026-09-27 12:34:51+0800 [INFO] [Global] Starting new AEDT gRPC session on port 56869.
+2026-09-27 12:34:51+0800 [INFO] [Global] Launching AEDT server with gRPC transport mode: wnua
+2026-09-27 12:35:03+0800 [INFO] [Global] Electronics Desktop started on gRPC port 56869 after 12.7 seconds.
+2026-09-27 12:35:03+0800 [INFO] [Global] AEDT installation Path E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64
+2026-09-27 12:35:03+0800 [INFO] [Global] Connected to AEDT gRPC session on port 56869.
+2026-09-27 12:35:04+0800 [INFO] [Global] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1 has been created.
+2026-09-27 12:35:04+0800 [INFO] [Global] Added design 'NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1' of type HFSS.
+2026-09-27 12:35:04+0800 [INFO] [Global] AEDT objects correctly read
+2026-09-27 12:35:05+0800 [INFO] [Global] Modeler class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:35:05+0800 [INFO] [Global] Materials class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:35:05+0800 [INFO] [Global] Adding new material to the Project Library: FR4_Chen2006
+2026-09-27 12:35:05+0800 [INFO] [Global] Material has been added in Desktop.
+2026-09-27 12:35:06+0800 [INFO] [Global] Parsing design objects. This operation can take time
+2026-09-27 12:35:06+0800 [INFO] [Global] Refreshing bodies from Object Info
+2026-09-27 12:35:06+0800 [INFO] [Global] Bodies Info Refreshed Elapsed time: 0m 0sec
+2026-09-27 12:35:06+0800 [INFO] [Global] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+2026-09-27 12:35:06+0800 [INFO] [Global] Boundary Radiation Radiation has been created.
+2026-09-27 12:35:06+0800 [INFO] [Global] Boundary Wave Port P1_CPW has been created.
+2026-09-27 12:35:06+0800 [INFO] [Global] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1.aedt.
+2026-09-27 12:35:06+0800 [INFO] [Global] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1.aedt correctly loaded. Elapsed time: 0m 0sec
+2026-09-27 12:35:06+0800 [INFO] [Global] aedt file load time 0.015996456146240234
+2026-09-27 12:35:06+0800 [INFO] [Global] Linear step sweep Sweep_NDUNSC has been correctly created
+2026-09-27 12:35:07+0800 [INFO] [Global] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1 Saved correctly
+2026-09-27 12:35:07+0800 [INFO] [Global] Solving design setup Setup_NDUNSC
+2026-09-27 12:35:13+0800 [ERROR] [Global] Error in Solving Setup Setup_NDUNSC
+2026-09-27 12:35:13+0800 [INFO] [Global] Design setup Setup_NDUNSC solved correctly in 0.0h 0.0m 6.0s
+2026-09-27 12:35:13+0800 [INFO] [Global] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1 Saved correctly
+2026-09-27 12:35:13+0800 [INFO] [Global] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1.aedt.
+2026-09-27 12:35:13+0800 [INFO] [Global] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1.aedt correctly loaded. Elapsed time: 0m 0sec
+2026-09-27 12:35:13+0800 [INFO] [Global] aedt file load time 0.037503957748413086
+2026-09-27 12:35:13+0800 [INFO] [Global] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:35:13+0800 [INFO] [Global] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:35:13+0800 [INFO] [Global] Post class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:35:13+0800 [WARNING] [Global] No report category provided. Automatically identified Modal Solution Data
+2026-09-27 12:35:13+0800 [WARNING] [Global] Solution Data failed to load. Check solution, context or expression.
+2026-09-27 12:35:13+0800 [WARNING] [Global] No Data Available. Check inputs
+2026-09-27 12:35:13+0800 [INFO] [Global] Closing the AEDT Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1
+2026-09-27 12:35:14+0800 [INFO] [Global] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1 closed correctly
+2026-09-27 12:35:16+0800 [INFO] [Global] Desktop has been released and closed.
+2026-09-27 12:35:36+0800 [ERROR] [ele_sim_worker.runtime] 任务执行失败：task_id=d0c515ab-88d8-4be3-847d-7f9da516edc6, simulation_type=NDUNSC_s11_desktop, attempt=1, elapsed_seconds=52.344
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python310\site-packages\ele_sim_worker\runtime.py", line 398, in process_once
+    output = plugin.run(job.payload, context)
+  File "plugins\worker_simulation.py", line 35, in run
+    return run_hfss_simulation({name: float(payload[name]) for name in OPTIMIZATION_COLUMNS}, context=context)
+  File "E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\plugins\_lib\cpw_hfss_runner.py", line 80, in run_hfss_simulation
+    add_design_variables(hfss,sample); create_geometry(hfss); create_setup(hfss); hfss.save_project(); hfss.analyze_setup(str(c["setup_name"])); hfss.save_project(); frequency,s11=export_s11(hfss); return {"frequency_data":frequency,"s11_data":s11}
+  File "E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\plugins\_lib\cpw_hfss_runner.py", line 73, in export_s11
+    c=hfss_config(); expr=str(c["s11_expression"]); data=hfss.post.get_solution_data(expressions=expr,setup_sweep_name=str(c["sweep_name"])); values=data.get_expression_data(expr); return [float(v) for v in values[0]],[float(v) for v in values[1]]
+AttributeError: 'bool' object has no attribute 'get_expression_data'
+2026-09-27 12:35:36+0800 [WARNING] [ele_sim_worker.runtime] 任务失败，等待重试：task_id=d0c515ab-88d8-4be3-847d-7f9da516edc6, simulation_type=NDUNSC_s11_desktop, attempt=1, next_attempt=2, error='bool' object has no attribute 'get_expression_data'
+2026-09-27 12:35:37+0800 [INFO] [ele_sim_worker.runtime] 领取任务：task_id=d0c515ab-88d8-4be3-847d-7f9da516edc6, simulation_type=NDUNSC_s11_desktop, attempt=2, payload_bytes=105, max_retries=3, timeout_seconds=3600
+2026-09-27 12:35:37+0800 [INFO] [ele_sim_worker.runtime] 开始执行任务：task_id=d0c515ab-88d8-4be3-847d-7f9da516edc6, simulation_type=NDUNSC_s11_desktop, attempt=2, max_runtime_seconds=3600.0, deadline_at=2026-09-27T13:35:37.954182+08:00
+2026-09-27 12:35:37+0800 [INFO] [Global] Python version 3.10.18 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:08:55) [MSC v.1929 64 bit (AMD64)].
+2026-09-27 12:35:37+0800 [INFO] [Global] PyAEDT version 0.25.1.
+2026-09-27 12:35:37+0800 [INFO] [Global] Initializing new Desktop session.
+2026-09-27 12:35:37+0800 [INFO] [Global] AEDT version 2023.2.
+2026-09-27 12:35:41+0800 [INFO] [Global] New AEDT session is starting on gRPC port 64231.
+2026-09-27 12:35:44+0800 [INFO] [Global] Starting new AEDT gRPC session on port 64231.
+2026-09-27 12:35:44+0800 [INFO] [Global] Launching AEDT server with gRPC transport mode: wnua
+2026-09-27 12:35:55+0800 [INFO] [Global] Electronics Desktop started on gRPC port 64231 after 10.6 seconds.
+2026-09-27 12:35:55+0800 [INFO] [Global] AEDT installation Path E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64
+2026-09-27 12:35:55+0800 [INFO] [Global] Connected to AEDT gRPC session on port 64231.
+2026-09-27 12:35:55+0800 [INFO] [Global] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2 has been created.
+2026-09-27 12:35:56+0800 [INFO] [Global] Added design 'NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2' of type HFSS.
+2026-09-27 12:35:56+0800 [INFO] [Global] AEDT objects correctly read
+2026-09-27 12:35:56+0800 [INFO] [Global] Modeler class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:35:56+0800 [INFO] [Global] Materials class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:35:56+0800 [INFO] [Global] Adding new material to the Project Library: FR4_Chen2006
+2026-09-27 12:35:57+0800 [INFO] [Global] Material has been added in Desktop.
+2026-09-27 12:35:57+0800 [INFO] [Global] Parsing design objects. This operation can take time
+2026-09-27 12:35:57+0800 [INFO] [Global] Refreshing bodies from Object Info
+2026-09-27 12:35:57+0800 [INFO] [Global] Bodies Info Refreshed Elapsed time: 0m 0sec
+2026-09-27 12:35:57+0800 [INFO] [Global] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+2026-09-27 12:35:58+0800 [INFO] [Global] Boundary Radiation Radiation has been created.
+2026-09-27 12:35:58+0800 [INFO] [Global] Boundary Wave Port P1_CPW has been created.
+2026-09-27 12:35:58+0800 [INFO] [Global] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2.aedt.
+2026-09-27 12:35:58+0800 [INFO] [Global] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2.aedt correctly loaded. Elapsed time: 0m 0sec
+2026-09-27 12:35:58+0800 [INFO] [Global] aedt file load time 0.019019126892089844
+2026-09-27 12:35:58+0800 [INFO] [Global] Linear step sweep Sweep_NDUNSC has been correctly created
+2026-09-27 12:35:58+0800 [INFO] [Global] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2 Saved correctly
+2026-09-27 12:35:58+0800 [INFO] [Global] Solving design setup Setup_NDUNSC
+2026-09-27 12:36:04+0800 [ERROR] [Global] Error in Solving Setup Setup_NDUNSC
+2026-09-27 12:36:04+0800 [INFO] [Global] Design setup Setup_NDUNSC solved correctly in 0.0h 0.0m 6.0s
+2026-09-27 12:36:04+0800 [INFO] [Global] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2 Saved correctly
+2026-09-27 12:36:04+0800 [INFO] [Global] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2.aedt.
+2026-09-27 12:36:04+0800 [INFO] [Global] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2.aedt correctly loaded. Elapsed time: 0m 0sec
+2026-09-27 12:36:04+0800 [INFO] [Global] aedt file load time 0.04200100898742676
+2026-09-27 12:36:04+0800 [INFO] [Global] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:36:04+0800 [INFO] [Global] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:36:04+0800 [INFO] [Global] Post class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:36:04+0800 [WARNING] [Global] No report category provided. Automatically identified Modal Solution Data
+2026-09-27 12:36:05+0800 [WARNING] [Global] Solution Data failed to load. Check solution, context or expression.
+2026-09-27 12:36:05+0800 [WARNING] [Global] No Data Available. Check inputs
+2026-09-27 12:36:05+0800 [INFO] [Global] Closing the AEDT Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2
+2026-09-27 12:36:06+0800 [INFO] [Global] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2 closed correctly
+2026-09-27 12:36:07+0800 [INFO] [Global] Desktop has been released and closed.
+2026-09-27 12:36:28+0800 [ERROR] [ele_sim_worker.runtime] 任务执行失败：task_id=d0c515ab-88d8-4be3-847d-7f9da516edc6, simulation_type=NDUNSC_s11_desktop, attempt=2, elapsed_seconds=50.375
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python310\site-packages\ele_sim_worker\runtime.py", line 398, in process_once
+    output = plugin.run(job.payload, context)
+  File "plugins\worker_simulation.py", line 35, in run
+    return run_hfss_simulation({name: float(payload[name]) for name in OPTIMIZATION_COLUMNS}, context=context)
+  File "E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\plugins\_lib\cpw_hfss_runner.py", line 80, in run_hfss_simulation
+    add_design_variables(hfss,sample); create_geometry(hfss); create_setup(hfss); hfss.save_project(); hfss.analyze_setup(str(c["setup_name"])); hfss.save_project(); frequency,s11=export_s11(hfss); return {"frequency_data":frequency,"s11_data":s11}
+  File "E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\plugins\_lib\cpw_hfss_runner.py", line 73, in export_s11
+    c=hfss_config(); expr=str(c["s11_expression"]); data=hfss.post.get_solution_data(expressions=expr,setup_sweep_name=str(c["sweep_name"])); values=data.get_expression_data(expr); return [float(v) for v in values[0]],[float(v) for v in values[1]]
+AttributeError: 'bool' object has no attribute 'get_expression_data'
+2026-09-27 12:36:28+0800 [WARNING] [ele_sim_worker.runtime] 任务失败，等待重试：task_id=d0c515ab-88d8-4be3-847d-7f9da516edc6, simulation_type=NDUNSC_s11_desktop, attempt=2, next_attempt=3, error='bool' object has no attribute 'get_expression_data'
+2026-09-27 12:36:29+0800 [INFO] [ele_sim_worker.runtime] 领取任务：task_id=d0c515ab-88d8-4be3-847d-7f9da516edc6, simulation_type=NDUNSC_s11_desktop, attempt=3, payload_bytes=105, max_retries=3, timeout_seconds=3600
+2026-09-27 12:36:29+0800 [INFO] [ele_sim_worker.runtime] 开始执行任务：task_id=d0c515ab-88d8-4be3-847d-7f9da516edc6, simulation_type=NDUNSC_s11_desktop, attempt=3, max_runtime_seconds=3600.0, deadline_at=2026-09-27T13:36:29.815189+08:00
+2026-09-27 12:36:29+0800 [INFO] [Global] Python version 3.10.18 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:08:55) [MSC v.1929 64 bit (AMD64)].
+2026-09-27 12:36:29+0800 [INFO] [Global] PyAEDT version 0.25.1.
+2026-09-27 12:36:29+0800 [INFO] [Global] Initializing new Desktop session.
+2026-09-27 12:36:29+0800 [INFO] [Global] AEDT version 2023.2.
+2026-09-27 12:36:33+0800 [INFO] [Global] New AEDT session is starting on gRPC port 62021.
+2026-09-27 12:36:36+0800 [INFO] [Global] Starting new AEDT gRPC session on port 62021.
+2026-09-27 12:36:36+0800 [INFO] [Global] Launching AEDT server with gRPC transport mode: wnua
+2026-09-27 12:36:47+0800 [INFO] [Global] Electronics Desktop started on gRPC port 62021 after 10.8 seconds.
+2026-09-27 12:36:47+0800 [INFO] [Global] AEDT installation Path E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64
+2026-09-27 12:36:47+0800 [INFO] [Global] Connected to AEDT gRPC session on port 62021.
+2026-09-27 12:36:47+0800 [INFO] [Global] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3 has been created.
+2026-09-27 12:36:48+0800 [INFO] [Global] Added design 'NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3' of type HFSS.
+2026-09-27 12:36:48+0800 [INFO] [Global] AEDT objects correctly read
+2026-09-27 12:36:48+0800 [INFO] [Global] Modeler class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:36:48+0800 [INFO] [Global] Materials class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:36:48+0800 [INFO] [Global] Adding new material to the Project Library: FR4_Chen2006
+2026-09-27 12:36:48+0800 [INFO] [Global] Material has been added in Desktop.
+2026-09-27 12:36:49+0800 [INFO] [Global] Parsing design objects. This operation can take time
+2026-09-27 12:36:49+0800 [INFO] [Global] Refreshing bodies from Object Info
+2026-09-27 12:36:49+0800 [INFO] [Global] Bodies Info Refreshed Elapsed time: 0m 0sec
+2026-09-27 12:36:49+0800 [INFO] [Global] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+2026-09-27 12:36:49+0800 [INFO] [Global] Boundary Radiation Radiation has been created.
+2026-09-27 12:36:49+0800 [INFO] [Global] Boundary Wave Port P1_CPW has been created.
+2026-09-27 12:36:50+0800 [INFO] [Global] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3.aedt.
+2026-09-27 12:36:50+0800 [INFO] [Global] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3.aedt correctly loaded. Elapsed time: 0m 0sec
+2026-09-27 12:36:50+0800 [INFO] [Global] aedt file load time 0.014855623245239258
+2026-09-27 12:36:50+0800 [INFO] [Global] Linear step sweep Sweep_NDUNSC has been correctly created
+2026-09-27 12:36:50+0800 [INFO] [Global] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3 Saved correctly
+2026-09-27 12:36:50+0800 [INFO] [Global] Solving design setup Setup_NDUNSC
+2026-09-27 12:36:57+0800 [ERROR] [Global] Error in Solving Setup Setup_NDUNSC
+2026-09-27 12:36:57+0800 [INFO] [Global] Design setup Setup_NDUNSC solved correctly in 0.0h 0.0m 7.0s
+2026-09-27 12:36:57+0800 [INFO] [Global] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3 Saved correctly
+2026-09-27 12:36:57+0800 [INFO] [Global] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3.aedt.
+2026-09-27 12:36:57+0800 [INFO] [Global] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3.aedt correctly loaded. Elapsed time: 0m 0sec
+2026-09-27 12:36:57+0800 [INFO] [Global] aedt file load time 0.0344998836517334
+2026-09-27 12:36:57+0800 [INFO] [Global] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:36:57+0800 [INFO] [Global] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:36:57+0800 [INFO] [Global] Post class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:36:57+0800 [WARNING] [Global] No report category provided. Automatically identified Modal Solution Data
+2026-09-27 12:36:58+0800 [WARNING] [Global] Solution Data failed to load. Check solution, context or expression.
+2026-09-27 12:36:58+0800 [WARNING] [Global] No Data Available. Check inputs
+2026-09-27 12:36:58+0800 [INFO] [Global] Closing the AEDT Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3
+2026-09-27 12:36:58+0800 [INFO] [Global] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3 closed correctly
+2026-09-27 12:37:00+0800 [INFO] [Global] Desktop has been released and closed.
+2026-09-27 12:37:16+0800 [ERROR] [ele_sim_worker.runtime] 任务执行失败：task_id=d0c515ab-88d8-4be3-847d-7f9da516edc6, simulation_type=NDUNSC_s11_desktop, attempt=3, elapsed_seconds=47.032
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python310\site-packages\ele_sim_worker\runtime.py", line 398, in process_once
+    output = plugin.run(job.payload, context)
+  File "plugins\worker_simulation.py", line 35, in run
+    return run_hfss_simulation({name: float(payload[name]) for name in OPTIMIZATION_COLUMNS}, context=context)
+  File "E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\plugins\_lib\cpw_hfss_runner.py", line 80, in run_hfss_simulation
+    add_design_variables(hfss,sample); create_geometry(hfss); create_setup(hfss); hfss.save_project(); hfss.analyze_setup(str(c["setup_name"])); hfss.save_project(); frequency,s11=export_s11(hfss); return {"frequency_data":frequency,"s11_data":s11}
+  File "E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\plugins\_lib\cpw_hfss_runner.py", line 73, in export_s11
+    c=hfss_config(); expr=str(c["s11_expression"]); data=hfss.post.get_solution_data(expressions=expr,setup_sweep_name=str(c["sweep_name"])); values=data.get_expression_data(expr); return [float(v) for v in values[0]],[float(v) for v in values[1]]
+AttributeError: 'bool' object has no attribute 'get_expression_data'
+2026-09-27 12:37:17+0800 [WARNING] [ele_sim_worker.runtime] 任务失败，等待重试：task_id=d0c515ab-88d8-4be3-847d-7f9da516edc6, simulation_type=NDUNSC_s11_desktop, attempt=3, next_attempt=4, error='bool' object has no attribute 'get_expression_data'
+2026-09-27 12:37:17+0800 [INFO] [ele_sim_worker.runtime] 领取任务：task_id=d0c515ab-88d8-4be3-847d-7f9da516edc6, simulation_type=NDUNSC_s11_desktop, attempt=4, payload_bytes=105, max_retries=3, timeout_seconds=3600
+2026-09-27 12:37:18+0800 [INFO] [ele_sim_worker.runtime] 开始执行任务：task_id=d0c515ab-88d8-4be3-847d-7f9da516edc6, simulation_type=NDUNSC_s11_desktop, attempt=4, max_runtime_seconds=3600.0, deadline_at=2026-09-27T13:37:18.148742+08:00
+2026-09-27 12:37:18+0800 [INFO] [Global] Python version 3.10.18 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:08:55) [MSC v.1929 64 bit (AMD64)].
+2026-09-27 12:37:18+0800 [INFO] [Global] PyAEDT version 0.25.1.
+2026-09-27 12:37:18+0800 [INFO] [Global] Initializing new Desktop session.
+2026-09-27 12:37:18+0800 [INFO] [Global] AEDT version 2023.2.
+2026-09-27 12:37:21+0800 [INFO] [Global] New AEDT session is starting on gRPC port 52529.
+2026-09-27 12:37:24+0800 [INFO] [Global] Starting new AEDT gRPC session on port 52529.
+2026-09-27 12:37:24+0800 [INFO] [Global] Launching AEDT server with gRPC transport mode: wnua
+2026-09-27 12:37:36+0800 [INFO] [Global] Electronics Desktop started on gRPC port 52529 after 11.1 seconds.
+2026-09-27 12:37:36+0800 [INFO] [Global] AEDT installation Path E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64
+2026-09-27 12:37:36+0800 [INFO] [Global] Connected to AEDT gRPC session on port 52529.
+2026-09-27 12:37:36+0800 [INFO] [Global] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4 has been created.
+2026-09-27 12:37:37+0800 [INFO] [Global] Added design 'NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4' of type HFSS.
+2026-09-27 12:37:37+0800 [INFO] [Global] AEDT objects correctly read
+2026-09-27 12:37:38+0800 [INFO] [Global] Modeler class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:37:38+0800 [INFO] [Global] Materials class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:37:38+0800 [INFO] [Global] Adding new material to the Project Library: FR4_Chen2006
+2026-09-27 12:37:38+0800 [INFO] [Global] Material has been added in Desktop.
+2026-09-27 12:37:39+0800 [INFO] [Global] Parsing design objects. This operation can take time
+2026-09-27 12:37:39+0800 [INFO] [Global] Refreshing bodies from Object Info
+2026-09-27 12:37:39+0800 [INFO] [Global] Bodies Info Refreshed Elapsed time: 0m 0sec
+2026-09-27 12:37:39+0800 [INFO] [Global] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+2026-09-27 12:37:39+0800 [INFO] [Global] Boundary Radiation Radiation has been created.
+2026-09-27 12:37:39+0800 [INFO] [Global] Boundary Wave Port P1_CPW has been created.
+2026-09-27 12:37:40+0800 [INFO] [Global] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4.aedt.
+2026-09-27 12:37:40+0800 [INFO] [Global] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4.aedt correctly loaded. Elapsed time: 0m 0sec
+2026-09-27 12:37:40+0800 [INFO] [Global] aedt file load time 0.012367010116577148
+2026-09-27 12:37:40+0800 [INFO] [Global] Linear step sweep Sweep_NDUNSC has been correctly created
+2026-09-27 12:37:40+0800 [INFO] [Global] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4 Saved correctly
+2026-09-27 12:37:40+0800 [INFO] [Global] Solving design setup Setup_NDUNSC
+2026-09-27 12:37:46+0800 [ERROR] [Global] Error in Solving Setup Setup_NDUNSC
+2026-09-27 12:37:46+0800 [INFO] [Global] Design setup Setup_NDUNSC solved correctly in 0.0h 0.0m 6.0s
+2026-09-27 12:37:46+0800 [INFO] [Global] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4 Saved correctly
+2026-09-27 12:37:46+0800 [INFO] [Global] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4.aedt.
+2026-09-27 12:37:46+0800 [INFO] [Global] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4.aedt correctly loaded. Elapsed time: 0m 0sec
+2026-09-27 12:37:46+0800 [INFO] [Global] aedt file load time 0.040520668029785156
+2026-09-27 12:37:46+0800 [INFO] [Global] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:37:46+0800 [INFO] [Global] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:37:46+0800 [INFO] [Global] Post class has been initialized! Elapsed time: 0m 0sec
+2026-09-27 12:37:47+0800 [WARNING] [Global] No report category provided. Automatically identified Modal Solution Data
+2026-09-27 12:37:47+0800 [WARNING] [Global] Solution Data failed to load. Check solution, context or expression.
+2026-09-27 12:37:47+0800 [WARNING] [Global] No Data Available. Check inputs
+2026-09-27 12:37:47+0800 [INFO] [Global] Closing the AEDT Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4
+2026-09-27 12:37:48+0800 [INFO] [Global] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4 closed correctly
+2026-09-27 12:37:50+0800 [INFO] [Global] Desktop has been released and closed.
+2026-09-27 12:38:11+0800 [ERROR] [ele_sim_worker.runtime] 任务执行失败：task_id=d0c515ab-88d8-4be3-847d-7f9da516edc6, simulation_type=NDUNSC_s11_desktop, attempt=4, elapsed_seconds=52.938
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python310\site-packages\ele_sim_worker\runtime.py", line 398, in process_once
+    output = plugin.run(job.payload, context)
+  File "plugins\worker_simulation.py", line 35, in run
+    return run_hfss_simulation({name: float(payload[name]) for name in OPTIMIZATION_COLUMNS}, context=context)
+  File "E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\plugins\_lib\cpw_hfss_runner.py", line 80, in run_hfss_simulation
+    add_design_variables(hfss,sample); create_geometry(hfss); create_setup(hfss); hfss.save_project(); hfss.analyze_setup(str(c["setup_name"])); hfss.save_project(); frequency,s11=export_s11(hfss); return {"frequency_data":frequency,"s11_data":s11}
+  File "E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\plugins\_lib\cpw_hfss_runner.py", line 73, in export_s11
+    c=hfss_config(); expr=str(c["s11_expression"]); data=hfss.post.get_solution_data(expressions=expr,setup_sweep_name=str(c["sweep_name"])); values=data.get_expression_data(expr); return [float(v) for v in values[0]],[float(v) for v in values[1]]
+AttributeError: 'bool' object has no attribute 'get_expression_data'
+2026-09-27 12:38:11+0800 [INFO] [ele_sim_worker.runtime] 任务完成：task_id=d0c515ab-88d8-4be3-847d-7f9da516edc6, simulation_type=NDUNSC_s11_desktop, attempt=4, status=JobStatus.FAILED, runtime_seconds=52.938, plugin_version=1.0-llmo
+2026-09-27 12:46:24+0800 [INFO] [ele_sim_worker.runtime] 收到停止信号，Worker 正在退出：worker_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c-7b7f557d5d6e46e6b25991fbb401d6a2
+2026-09-27 12:46:24+0800 [INFO] [ele_sim_worker.runtime] Worker 已标记为 OFFLINE：worker_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c-7b7f557d5d6e46e6b25991fbb401d6a2
+2026-09-27 12:46:41+0800 [INFO] [ele_sim_worker.runtime] 开始扫描插件目录：E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\plugins
+2026-09-27 12:46:41+0800 [INFO] [ele_sim_worker.runtime] 发现插件：file=worker_simulation.py, simulation_type=NDUNSC_s11_desktop, version=1.0-llmo, max_runtime_seconds=3600.0
+2026-09-27 12:46:41+0800 [INFO] [ele_sim_worker.runtime] 开始验证 1 个插件的运行环境
+2026-09-27 12:46:42+0800 [INFO] [ele_sim_worker.runtime] 插件可用：simulation_type=NDUNSC_s11_desktop, version=1.0-llmo, max_runtime_seconds=3600.0, check_seconds=1.437
+2026-09-27 12:46:42+0800 [INFO] [ele_sim_worker.cli] 启动 Worker，worker_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c-0f865b16b84a441a9029d279f15fe233, host_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c, worker_name=worker-d279f15fe233, plugin_dir=./plugins, poll_seconds=5, log_file=logs/ele-sim-worker.log
+2026-09-27 12:46:42+0800 [INFO] [ele_sim_worker.runtime] Worker 正在初始化：worker_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c-0f865b16b84a441a9029d279f15fe233, host_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c, worker_name=worker-d279f15fe233, plugin_dir=E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\plugins, simulation_type=NDUNSC_s11_desktop, poll_seconds=5
+2026-09-27 12:46:44+0800 [INFO] [ele_sim_core.db] 数据库 schema 检查完成
+2026-09-27 12:46:44+0800 [INFO] [ele_sim_worker.runtime] Worker 启动完成：worker_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c-0f865b16b84a441a9029d279f15fe233, host_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c, plugins=['NDUNSC_s11_desktop'], poll_seconds=5
+2026-09-27 19:46:55+0800 [INFO] [ele_sim_worker.runtime] 收到停止信号，Worker 正在退出：worker_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c-0f865b16b84a441a9029d279f15fe233
+2026-09-27 19:46:56+0800 [INFO] [ele_sim_worker.runtime] Worker 已标记为 OFFLINE：worker_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c-0f865b16b84a441a9029d279f15fe233
+2026-09-29 21:38:04+0800 [INFO] [ele_sim_worker.runtime] 开始扫描插件目录：E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\plugins
+2026-09-29 21:38:04+0800 [INFO] [ele_sim_worker.runtime] 发现插件：file=worker_simulation.py, simulation_type=gpt_s11, version=1.0-llmo, max_runtime_seconds=3600.0
+2026-09-29 21:38:04+0800 [INFO] [ele_sim_worker.runtime] 开始验证 1 个插件的运行环境
+2026-09-29 21:38:06+0800 [INFO] [ele_sim_worker.runtime] 插件可用：simulation_type=gpt_s11, version=1.0-llmo, max_runtime_seconds=3600.0, check_seconds=1.860
+2026-09-29 21:38:06+0800 [INFO] [ele_sim_worker.cli] 启动 Worker，worker_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c-077708e5f65e49e48896b4a2b9b4ba30, host_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c, worker_name=worker-b4a2b9b4ba30, plugin_dir=./plugins, poll_seconds=5, log_file=logs/ele-sim-worker.log
+2026-09-29 21:38:06+0800 [INFO] [ele_sim_worker.runtime] Worker 正在初始化：worker_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c-077708e5f65e49e48896b4a2b9b4ba30, host_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c, worker_name=worker-b4a2b9b4ba30, plugin_dir=E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\plugins, simulation_type=gpt_s11, poll_seconds=5
+2026-09-29 21:38:08+0800 [INFO] [ele_sim_core.db] 数据库 schema 检查完成
+2026-09-29 21:38:08+0800 [INFO] [ele_sim_worker.runtime] Worker 启动完成：worker_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c-077708e5f65e49e48896b4a2b9b4ba30, host_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c, plugins=['gpt_s11'], poll_seconds=5
+2026-09-29 21:38:09+0800 [INFO] [ele_sim_worker.runtime] 领取任务：task_id=acce09e6-322a-4a24-99e4-f223c41ceeb5, simulation_type=gpt_s11, attempt=1, payload_bytes=112, max_retries=3, timeout_seconds=3600
+2026-09-29 21:38:09+0800 [INFO] [ele_sim_worker.runtime] 开始执行任务：task_id=acce09e6-322a-4a24-99e4-f223c41ceeb5, simulation_type=gpt_s11, attempt=1, max_runtime_seconds=3600.0, deadline_at=2026-09-29T22:38:09.593492+08:00
+2026-09-29 21:38:09+0800 [INFO] [Global] Python version 3.10.18 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:08:55) [MSC v.1929 64 bit (AMD64)].
+2026-09-29 21:38:09+0800 [INFO] [Global] PyAEDT version 0.25.1.
+2026-09-29 21:38:09+0800 [INFO] [Global] Initializing new Desktop session.
+2026-09-29 21:38:09+0800 [INFO] [Global] AEDT version 2023.2.
+2026-09-29 21:38:13+0800 [INFO] [Global] New AEDT session is starting on gRPC port 65219.
+2026-09-29 21:38:16+0800 [INFO] [Global] Starting new AEDT gRPC session on port 65219.
+2026-09-29 21:38:16+0800 [INFO] [Global] Launching AEDT server with gRPC transport mode: wnua
+2026-09-29 21:38:27+0800 [INFO] [Global] Electronics Desktop started on gRPC port 65219 after 11.1 seconds.
+2026-09-29 21:38:27+0800 [INFO] [Global] AEDT installation Path E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64
+2026-09-29 21:38:27+0800 [INFO] [Global] Connected to AEDT gRPC session on port 65219.
+2026-09-29 21:38:27+0800 [INFO] [Global] Project gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1 has been created.
+2026-09-29 21:38:29+0800 [INFO] [Global] Added design 'gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1' of type HFSS.
+2026-09-29 21:38:29+0800 [INFO] [Global] AEDT objects correctly read
+2026-09-29 21:38:30+0800 [INFO] [Global] Modeler class has been initialized! Elapsed time: 0m 0sec
+2026-09-29 21:38:30+0800 [INFO] [Global] Materials class has been initialized! Elapsed time: 0m 0sec
+2026-09-29 21:38:30+0800 [INFO] [Global] Adding new material to the Project Library: FR4_Chen2006
+2026-09-29 21:38:30+0800 [INFO] [Global] Material has been added in Desktop.
+2026-09-29 21:38:31+0800 [INFO] [Global] Parsing design objects. This operation can take time
+2026-09-29 21:38:31+0800 [INFO] [Global] Refreshing bodies from Object Info
+2026-09-29 21:38:31+0800 [INFO] [Global] Bodies Info Refreshed Elapsed time: 0m 0sec
+2026-09-29 21:38:31+0800 [INFO] [Global] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+2026-09-29 21:38:31+0800 [INFO] [Global] Boundary Radiation Radiation has been created.
+2026-09-29 21:38:31+0800 [INFO] [Global] Boundary Wave Port P1_CPW has been created.
+2026-09-29 21:38:31+0800 [INFO] [Global] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1.aedt.
+2026-09-29 21:38:31+0800 [INFO] [Global] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1.aedt correctly loaded. Elapsed time: 0m 0sec
+2026-09-29 21:38:31+0800 [INFO] [Global] aedt file load time 0.015000343322753906
+2026-09-29 21:38:31+0800 [INFO] [Global] Linear step sweep Sweep_NDUNSC has been correctly created
+2026-09-29 21:38:31+0800 [INFO] [Global] Project gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1 Saved correctly
+2026-09-29 21:38:31+0800 [INFO] [Global] Solving design setup Setup_NDUNSC
+2026-09-29 21:40:59+0800 [ERROR] [Global] Error in Solving Setup Setup_NDUNSC
+2026-09-29 21:40:59+0800 [INFO] [Global] Design setup Setup_NDUNSC solved correctly in 0.0h 2.0m 28.0s
+2026-09-29 21:41:00+0800 [INFO] [Global] Project gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1 Saved correctly
+2026-09-29 21:41:00+0800 [INFO] [Global] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1.aedt.
+2026-09-29 21:41:00+0800 [INFO] [Global] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1.aedt correctly loaded. Elapsed time: 0m 0sec
+2026-09-29 21:41:00+0800 [INFO] [Global] aedt file load time 0.051999807357788086
+2026-09-29 21:41:00+0800 [INFO] [Global] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+2026-09-29 21:41:00+0800 [INFO] [Global] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+2026-09-29 21:41:00+0800 [INFO] [Global] Post class has been initialized! Elapsed time: 0m 0sec
+2026-09-29 21:41:00+0800 [WARNING] [Global] No report category provided. Automatically identified Modal Solution Data
+2026-09-29 21:41:00+0800 [INFO] [Global] Solution Data Correctly Loaded.
+2026-09-29 21:41:00+0800 [INFO] [Global] Closing the AEDT Project gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1
+2026-09-29 21:41:01+0800 [INFO] [Global] Project gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1 closed correctly
+2026-09-29 21:41:03+0800 [INFO] [Global] Desktop has been released and closed.
+2026-09-29 21:41:24+0800 [INFO] [ele_sim_worker.runtime] 任务完成：task_id=acce09e6-322a-4a24-99e4-f223c41ceeb5, simulation_type=gpt_s11, attempt=1, status=JobStatus.SUCCESS, runtime_seconds=194.328, plugin_version=1.0-llmo
+2026-09-29 21:41:24+0800 [INFO] [ele_sim_worker.runtime] 领取任务：task_id=afda2a80-8c6e-45a2-b154-d4be40a1e398, simulation_type=gpt_s11, attempt=1, payload_bytes=105, max_retries=3, timeout_seconds=3600
+2026-09-29 21:41:25+0800 [INFO] [ele_sim_worker.runtime] 开始执行任务：task_id=afda2a80-8c6e-45a2-b154-d4be40a1e398, simulation_type=gpt_s11, attempt=1, max_runtime_seconds=3600.0, deadline_at=2026-09-29T22:41:25.224944+08:00
+2026-09-29 21:41:25+0800 [INFO] [Global] Python version 3.10.18 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:08:55) [MSC v.1929 64 bit (AMD64)].
+2026-09-29 21:41:25+0800 [INFO] [Global] PyAEDT version 0.25.1.
+2026-09-29 21:41:25+0800 [INFO] [Global] Initializing new Desktop session.
+2026-09-29 21:41:25+0800 [INFO] [Global] AEDT version 2023.2.
+2026-09-29 21:41:28+0800 [INFO] [Global] New AEDT session is starting on gRPC port 49709.
+2026-09-29 21:41:32+0800 [INFO] [Global] Starting new AEDT gRPC session on port 49709.
+2026-09-29 21:41:32+0800 [INFO] [Global] Launching AEDT server with gRPC transport mode: wnua
+2026-09-29 21:41:43+0800 [INFO] [Global] Electronics Desktop started on gRPC port 49709 after 11.1 seconds.
+2026-09-29 21:41:43+0800 [INFO] [Global] AEDT installation Path E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64
+2026-09-29 21:41:43+0800 [INFO] [Global] Connected to AEDT gRPC session on port 49709.
+2026-09-29 21:41:43+0800 [INFO] [Global] Project gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1 has been created.
+2026-09-29 21:41:44+0800 [INFO] [Global] Added design 'gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1' of type HFSS.
+2026-09-29 21:41:44+0800 [INFO] [Global] AEDT objects correctly read
+2026-09-29 21:41:44+0800 [INFO] [Global] Modeler class has been initialized! Elapsed time: 0m 0sec
+2026-09-29 21:41:44+0800 [INFO] [Global] Materials class has been initialized! Elapsed time: 0m 0sec
+2026-09-29 21:41:44+0800 [INFO] [Global] Adding new material to the Project Library: FR4_Chen2006
+2026-09-29 21:41:45+0800 [INFO] [Global] Material has been added in Desktop.
+2026-09-29 21:41:46+0800 [INFO] [Global] Parsing design objects. This operation can take time
+2026-09-29 21:41:46+0800 [INFO] [Global] Refreshing bodies from Object Info
+2026-09-29 21:41:46+0800 [INFO] [Global] Bodies Info Refreshed Elapsed time: 0m 0sec
+2026-09-29 21:41:46+0800 [INFO] [Global] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+2026-09-29 21:41:46+0800 [INFO] [Global] Boundary Radiation Radiation has been created.
+2026-09-29 21:41:46+0800 [INFO] [Global] Boundary Wave Port P1_CPW has been created.
+2026-09-29 21:41:46+0800 [INFO] [Global] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1.aedt.
+2026-09-29 21:41:46+0800 [INFO] [Global] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1.aedt correctly loaded. Elapsed time: 0m 0sec
+2026-09-29 21:41:46+0800 [INFO] [Global] aedt file load time 0.014002084732055664
+2026-09-29 21:41:46+0800 [INFO] [Global] Linear step sweep Sweep_NDUNSC has been correctly created
+2026-09-29 21:41:47+0800 [INFO] [Global] Project gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1 Saved correctly
+2026-09-29 21:41:47+0800 [INFO] [Global] Solving design setup Setup_NDUNSC
+2026-09-29 21:42:46+0800 [ERROR] [Global] Error in Solving Setup Setup_NDUNSC
+2026-09-29 21:42:46+0800 [INFO] [Global] Design setup Setup_NDUNSC solved correctly in 0.0h 0.0m 59.0s
+2026-09-29 21:42:46+0800 [INFO] [Global] Project gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1 Saved correctly
+2026-09-29 21:42:46+0800 [INFO] [Global] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1.aedt.
+2026-09-29 21:42:46+0800 [INFO] [Global] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1.aedt correctly loaded. Elapsed time: 0m 0sec
+2026-09-29 21:42:46+0800 [INFO] [Global] aedt file load time 0.05903458595275879
+2026-09-29 21:42:46+0800 [INFO] [Global] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+2026-09-29 21:42:46+0800 [INFO] [Global] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+2026-09-29 21:42:46+0800 [INFO] [Global] Post class has been initialized! Elapsed time: 0m 0sec
+2026-09-29 21:42:47+0800 [WARNING] [Global] No report category provided. Automatically identified Modal Solution Data
+2026-09-29 21:42:47+0800 [INFO] [Global] Solution Data Correctly Loaded.
+2026-09-29 21:42:47+0800 [INFO] [Global] Closing the AEDT Project gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1
+2026-09-29 21:42:48+0800 [INFO] [Global] Project gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1 closed correctly
+2026-09-29 21:42:50+0800 [INFO] [Global] Desktop has been released and closed.
+2026-09-29 21:43:11+0800 [INFO] [ele_sim_worker.runtime] 任务完成：task_id=afda2a80-8c6e-45a2-b154-d4be40a1e398, simulation_type=gpt_s11, attempt=1, status=JobStatus.SUCCESS, runtime_seconds=106.110, plugin_version=1.0-llmo
+2026-09-29 21:44:32+0800 [INFO] [ele_sim_worker.runtime] 收到停止信号，Worker 正在退出：worker_id=83ff6e8b1314f29639bd78750d62c68d493edb2f21bf378f87c47861ed83907c-077708e5f65e49e48896b4a2b9b4ba30
+2026-09-29 21:44:33+0800 [ERROR] [sqlalchemy.pool.impl.QueuePool] Exception during reset or similar
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python310\site-packages\sqlalchemy\pool\base.py", line 986, in _finalize_fairy
+    fairy._reset(
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python310\site-packages\sqlalchemy\pool\base.py", line 1441, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python310\site-packages\sqlalchemy\engine\default.py", line 712, in do_rollback
+    dbapi_connection.rollback()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 512, in rollback
+    self._read_ok_packet()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 472, in _read_ok_packet
+    pkt = self._read_packet()
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 772, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python310\site-packages\pymysql\connections.py", line 810, in _read_bytes
+    data = self._rfile.read(num_bytes)
+  File "E:\ProgramFlies\Miniconda\Miniconda\envs\LimuPytorchCpu\lib\socket.py", line 717, in readinto
+    return self._sock.recv_into(b)
+  File "E:\ProgramFlies\Miniconda\Miniconda\envs\LimuPytorchCpu\lib\ssl.py", line 1307, in recv_into
+    return self.read(nbytes, buffer)
+  File "E:\ProgramFlies\Miniconda\Miniconda\envs\LimuPytorchCpu\lib\ssl.py", line 1163, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt

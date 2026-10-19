@@ -1,0 +1,1696 @@
+[
+  {
+    "iteration": 1,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 34.5,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "This proposal keeps the highest-ranked geometry nearly intact because it already produced two resonances at 2.45 GHz and 4.53 GHz with target S11 values of -26.44 dB and -15.46 dB, both below the required -15.00 dB. The only change is a small reduction in l3 from 35.00 mm to 34.50 mm. Since the high resonance in the rank-1 sample is slightly above 4.50 GHz, lowering the lower slot length is intended to pull that high resonance closer to 4.50 GHz while keeping l1, l2, s1, s2, s3, and feed length unchanged so the strong low-band match is preserved."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.5,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.5,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "This proposal keeps the highest-ranked geometry nearly intact because it already produced two resonances at 2.45 GHz and 4.53 GHz with target S11 values of -26.44 dB and -15.46 dB, both below the required -15.00 dB. The only change is a small reduction in l3 from 35.00 mm to 34.50 mm. Since the high resonance in the rank-1 sample is slightly above 4.50 GHz, lowering the lower slot length is intended to pull that high resonance closer to 4.50 GHz while keeping l1, l2, s1, s2, s3, and feed length unchanged so the strong low-band match is preserved.",
+    "error": null
+  },
+  {
+    "iteration": 1,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 35.0,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.55,
+        "f_l": 11.0
+      },
+      "rationale": "This second proposal also starts from the rank-1 geometry, which is the best evaluated dual-band match in the supplied set, and makes only a slight increase in the lower slot width from 0.50 mm to 0.55 mm. The rank-1 sample is already successful but its high-band target S11 margin at 4.50 GHz is narrow, so this small s3 adjustment is intended to fine-tune the high resonance toward 4.50 GHz while retaining the l2=15.00 mm and other parameters that produced the correct 2.45 GHz resonance and deep low-band match."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.55,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.55,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "This second proposal also starts from the rank-1 geometry, which is the best evaluated dual-band match in the supplied set, and makes only a slight increase in the lower slot width from 0.50 mm to 0.55 mm. The rank-1 sample is already successful but its high-band target S11 margin at 4.50 GHz is narrow, so this small s3 adjustment is intended to fine-tune the high resonance toward 4.50 GHz while retaining the l2=15.00 mm and other parameters that produced the correct 2.45 GHz resonance and deep low-band match.",
+    "error": null
+  },
+  {
+    "iteration": 2,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 34.5,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.38,
+        "f_l": 11.0
+      },
+      "rationale": "The highest-ranked sample has a=115.00, b=50.00, l1=22.50, l2=15.00, l3=35.00, s1=0.80, s2=4.00, s3=0.50, f_l=11.00 and already shows strong dual-resonance behavior with valleys near 2.45 GHz and 4.53 GHz, but the upper valley is slightly high. The second-ranked sample shows that increasing s3 to 0.55 moves both valleys upward, while the third-ranked sample shows that reducing l3 to 34.50 moves the lower valley upward. This proposal reduces s3 to 0.38 to pull both valleys downward and simultaneously reduces l3 to 34.50 to keep the lower valley close to 2.45 GHz, so the upper valley should move nearer to 4.50 GHz and the target 4.50 GHz S11 should deepen without sacrificing the strong 2.45 GHz match."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.5,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.38,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.5,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.38,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "The highest-ranked sample has a=115.00, b=50.00, l1=22.50, l2=15.00, l3=35.00, s1=0.80, s2=4.00, s3=0.50, f_l=11.00 and already shows strong dual-resonance behavior with valleys near 2.45 GHz and 4.53 GHz, but the upper valley is slightly high. The second-ranked sample shows that increasing s3 to 0.55 moves both valleys upward, while the third-ranked sample shows that reducing l3 to 34.50 moves the lower valley upward. This proposal reduces s3 to 0.38 to pull both valleys downward and simultaneously reduces l3 to 34.50 to keep the lower valley close to 2.45 GHz, so the upper valley should move nearer to 4.50 GHz and the target 4.50 GHz S11 should deepen without sacrificing the strong 2.45 GHz match.",
+    "error": null
+  },
+  {
+    "iteration": 2,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 34.75,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.4,
+        "f_l": 11.0
+      },
+      "rationale": "This alternative keeps the same favorable substrate and slot dimensions as the highest-ranked sample but applies a slightly more conservative tuning than the first proposal. The third-ranked sample indicates that reducing l3 from 35.00 to 34.50 shifts the lower valley upward, while the highest-ranked and second-ranked samples show that lower s3 values keep both resonances lower than higher s3 values. Setting l3 to 34.75 and s3 to 0.40 should pull the upper valley from about 4.53 GHz toward 4.50 GHz while keeping the lower valley near 2.45 GHz, thereby improving the fixed-target S11 at 4.50 GHz and preserving the low-band match."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.75,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.4,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.75,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.4,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "This alternative keeps the same favorable substrate and slot dimensions as the highest-ranked sample but applies a slightly more conservative tuning than the first proposal. The third-ranked sample indicates that reducing l3 from 35.00 to 34.50 shifts the lower valley upward, while the highest-ranked and second-ranked samples show that lower s3 values keep both resonances lower than higher s3 values. Setting l3 to 34.75 and s3 to 0.40 should pull the upper valley from about 4.53 GHz toward 4.50 GHz while keeping the lower valley near 2.45 GHz, thereby improving the fixed-target S11 at 4.50 GHz and preserving the low-band match.",
+    "error": null
+  },
+  {
+    "iteration": 3,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 35.0,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.45,
+        "f_l": 11.0
+      },
+      "rationale": "The top-ranked evaluated sample anchors this design because it produced two actual resonances at 2.45 GHz and 4.53 GHz with target S11 values of -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, both below the required -15.00 dB threshold. Its lower-slot width was 0.50 mm; the neighboring rank-two sample reduced that width to 0.40 mm and shortened l3 to 34.75 mm, moving the upper resonance slightly closer to 4.50 GHz while still passing at 4.50 GHz. This proposal keeps the strong anchor geometry fixed and makes only a modest reduction of s3 to 0.45 mm to avoid the higher-frequency shift seen at s3=0.55 mm, with the expectation that the high resonance will remain near 4.50 GHz and the low resonance will stay centered around 2.45 GHz while preserving target-frequency matching margin."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.45,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.45,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "The top-ranked evaluated sample anchors this design because it produced two actual resonances at 2.45 GHz and 4.53 GHz with target S11 values of -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, both below the required -15.00 dB threshold. Its lower-slot width was 0.50 mm; the neighboring rank-two sample reduced that width to 0.40 mm and shortened l3 to 34.75 mm, moving the upper resonance slightly closer to 4.50 GHz while still passing at 4.50 GHz. This proposal keeps the strong anchor geometry fixed and makes only a modest reduction of s3 to 0.45 mm to avoid the higher-frequency shift seen at s3=0.55 mm, with the expectation that the high resonance will remain near 4.50 GHz and the low resonance will stay centered around 2.45 GHz while preserving target-frequency matching margin.",
+    "error": null
+  },
+  {
+    "iteration": 3,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 34.75,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.4,
+        "f_l": 11.0
+      },
+      "rationale": "This candidate adopts the nearby geometry observed in the rank-two evaluated sample, which shares the same substrate width, substrate length, upper and middle slot dimensions, and feed length as the best sample but uses l3=34.75 mm and s3=0.40 mm. That observed geometry produced two resonances at 2.49 GHz and 4.52 GHz, moving the upper actual resonance closer to the 4.50 GHz target than the rank-one geometry, while its interpolated target S11 values were -19.91 dB at 2.45 GHz and -15.27 dB at 4.50 GHz, both still satisfying the -15.00 dB requirement. The retained substrate and slot parameters are therefore expected to preserve the dual-resonance mode while the shorter lower slot and narrower lower slot width provide a more centered upper resonance."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.75,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.4,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 119.23,
+      "b": 52.36,
+      "l1": 21.59,
+      "l2": 14.4,
+      "l3": 36.54,
+      "s1": 0.88,
+      "s2": 4.25,
+      "s3": 0.47,
+      "f_l": 11.77
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": 0.8450232178490287,
+      "b": 0.5911626808639898,
+      "l1": -0.30393267763814147,
+      "l2": -0.5973435807211944,
+      "l3": 0.596699684381846,
+      "s1": 0.7721253941332984,
+      "s2": 0.3172619337562126,
+      "s3": 0.5162189131755506,
+      "f_l": 0.7665281646857947
+    },
+    "rationale": "This candidate adopts the nearby geometry observed in the rank-two evaluated sample, which shares the same substrate width, substrate length, upper and middle slot dimensions, and feed length as the best sample but uses l3=34.75 mm and s3=0.40 mm. That observed geometry produced two resonances at 2.49 GHz and 4.52 GHz, moving the upper actual resonance closer to the 4.50 GHz target than the rank-one geometry, while its interpolated target S11 values were -19.91 dB at 2.45 GHz and -15.27 dB at 4.50 GHz, both still satisfying the -15.00 dB requirement. The retained substrate and slot parameters are therefore expected to preserve the dual-resonance mode while the shorter lower slot and narrower lower slot width provide a more centered upper resonance.",
+    "error": null
+  },
+  {
+    "iteration": 4,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 34.8,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.45,
+        "f_l": 11.0
+      },
+      "rationale": "The highest-ranked evaluated summaries form a narrow cluster with a around 115 mm, b around 50 mm, l1 around 22.50 mm, l2 at 15.00 mm, s1 around 0.80 mm, s2 at 4.00 mm, and f_l at 11.00 mm; within that cluster, l3 between 34.50 and 35.00 mm and s3 between 0.38 and 0.50 mm produce two detected resonances near 2.45 GHz and 4.52-4.54 GHz, with the interpolated 4.50 GHz S11 near or below -15.00 dB in the best cases. This candidate keeps the established low-band dimensions and chooses l3 equal to 34.80 mm with s3 equal to 0.45 mm, placing the geometry between observed high-band successes so the low resonance remains strong while the high-band target match is retained with a small margin."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.8,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.45,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.8,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.45,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "The highest-ranked evaluated summaries form a narrow cluster with a around 115 mm, b around 50 mm, l1 around 22.50 mm, l2 at 15.00 mm, s1 around 0.80 mm, s2 at 4.00 mm, and f_l at 11.00 mm; within that cluster, l3 between 34.50 and 35.00 mm and s3 between 0.38 and 0.50 mm produce two detected resonances near 2.45 GHz and 4.52-4.54 GHz, with the interpolated 4.50 GHz S11 near or below -15.00 dB in the best cases. This candidate keeps the established low-band dimensions and chooses l3 equal to 34.80 mm with s3 equal to 0.45 mm, placing the geometry between observed high-band successes so the low resonance remains strong while the high-band target match is retained with a small margin.",
+    "error": null
+  },
+  {
+    "iteration": 4,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 34.75,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.48,
+        "f_l": 11.0
+      },
+      "rationale": "The top-ranked evidence shows that a small reduction in l3 from 35.00 mm to 34.75 mm can trend the high resonance slightly toward 4.50 GHz while maintaining the dual-resonance count, and that s3 values near 0.45-0.50 mm keep the interpolated 4.50 GHz S11 below -15.00 dB. This candidate therefore uses l3 equal to 34.75 mm and s3 equal to 0.48 mm with the observed successful a, b, l1, l2, s1, s2, and f_l combination, aiming to center the high-band match near the target frequency without degrading the deep 2.45 GHz resonance observed across the top cluster."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.75,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.48,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.75,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.48,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "The top-ranked evidence shows that a small reduction in l3 from 35.00 mm to 34.75 mm can trend the high resonance slightly toward 4.50 GHz while maintaining the dual-resonance count, and that s3 values near 0.45-0.50 mm keep the interpolated 4.50 GHz S11 below -15.00 dB. This candidate therefore uses l3 equal to 34.75 mm and s3 equal to 0.48 mm with the observed successful a, b, l1, l2, s1, s2, and f_l combination, aiming to center the high-band match near the target frequency without degrading the deep 2.45 GHz resonance observed across the top cluster.",
+    "error": null
+  },
+  {
+    "iteration": 5,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 35.0,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "The highest-ranked evaluated summary with this geometry already shows two resonances at 2.45 GHz and 4.53 GHz and target S11 values of -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, so this complete geometry is chosen to preserve that successful dual-band match. The surrounding top-ranked samples keep the same compact geometry and mainly vary the lower-slot length and width; this sample has the strongest observed high-band margin, and the low-band target is also well below the required -15 dB. Keeping a, b, l1, l2, s1, s2, and f_l unchanged avoids disturbing the favorable mode separation, while l3 and s3 are retained at their observed high-performing values."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 117.82,
+      "b": 49.25,
+      "l1": 21.6,
+      "l2": 15.0,
+      "l3": 37.45,
+      "s1": 0.73,
+      "s2": 4.13,
+      "s3": 0.43,
+      "f_l": 10.69
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": 0.5635730593822026,
+      "b": -0.18649254820603733,
+      "l1": -0.2997448477566216,
+      "l2": 0.9437232491245842,
+      "l3": 0.8174956963341795,
+      "s1": -0.7349211499768098,
+      "s2": 0.16337216142830946,
+      "s3": -0.4802431516576684,
+      "f_l": -0.309491024349587
+    },
+    "rationale": "The highest-ranked evaluated summary with this geometry already shows two resonances at 2.45 GHz and 4.53 GHz and target S11 values of -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, so this complete geometry is chosen to preserve that successful dual-band match. The surrounding top-ranked samples keep the same compact geometry and mainly vary the lower-slot length and width; this sample has the strongest observed high-band margin, and the low-band target is also well below the required -15 dB. Keeping a, b, l1, l2, s1, s2, and f_l unchanged avoids disturbing the favorable mode separation, while l3 and s3 are retained at their observed high-performing values.",
+    "error": null
+  },
+  {
+    "iteration": 5,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 34.75,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.4,
+        "f_l": 11.0
+      },
+      "rationale": "A nearby top-ranked sample using l3 of 34.75 mm and s3 of 0.40 mm produced resonances at 2.49 GHz and 4.52 GHz, moving the upper resonance closer to the 4.50 GHz target while still reaching target S11 values of -19.91 dB at 2.45 GHz and -15.27 dB at 4.50 GHz. Compared with the leading configuration, the slightly shorter and narrower lower slot shifts the high-band resonance downward without losing the useful low-band match. The other parameters are kept identical to the successful compact-slot cluster, preserving the substrate and feed dimensions that gave the strong low-band matching and dual-resonance behavior."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.75,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.4,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 116.73,
+      "b": 49.65,
+      "l1": 21.74,
+      "l2": 15.0,
+      "l3": 31.91,
+      "s1": 0.86,
+      "s2": 4.75,
+      "s3": 0.41,
+      "f_l": 10.68
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": 0.3456732541896772,
+      "b": -0.08807243941306164,
+      "l1": -0.2543669217455633,
+      "l2": 0.2274871124710418,
+      "l3": -0.9469700738194105,
+      "s1": 0.6269927438611886,
+      "s2": 0.9412961337390935,
+      "s3": 0.04998851033851848,
+      "f_l": -0.31808418885743195
+    },
+    "rationale": "A nearby top-ranked sample using l3 of 34.75 mm and s3 of 0.40 mm produced resonances at 2.49 GHz and 4.52 GHz, moving the upper resonance closer to the 4.50 GHz target while still reaching target S11 values of -19.91 dB at 2.45 GHz and -15.27 dB at 4.50 GHz. Compared with the leading configuration, the slightly shorter and narrower lower slot shifts the high-band resonance downward without losing the useful low-band match. The other parameters are kept identical to the successful compact-slot cluster, preserving the substrate and feed dimensions that gave the strong low-band matching and dual-resonance behavior.",
+    "error": null
+  },
+  {
+    "iteration": 6,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 34.75,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "The highest-ranked evidence from rank 1 shows that a 115.00 by 50.00 mm substrate with l1=22.50, l2=15.00, s1=0.80, s2=4.00, s3=0.50, and f_l=11.00 produces two resonances at 2.45 GHz and 4.53 GHz, with target S11 values of -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz. The rank 3 sample with l3=34.75 shifts the second resonance slightly lower to 4.52 GHz, closer to the 4.50 GHz target, while keeping dual-resonance behavior. Therefore this proposal keeps the strong s3=0.50 setting from rank 1 and adopts l3=34.75 from the nearby rank 3 evidence, which should move the high resonance closer to 4.50 GHz while preserving deep matching in both bands."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.75,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.75,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "The highest-ranked evidence from rank 1 shows that a 115.00 by 50.00 mm substrate with l1=22.50, l2=15.00, s1=0.80, s2=4.00, s3=0.50, and f_l=11.00 produces two resonances at 2.45 GHz and 4.53 GHz, with target S11 values of -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz. The rank 3 sample with l3=34.75 shifts the second resonance slightly lower to 4.52 GHz, closer to the 4.50 GHz target, while keeping dual-resonance behavior. Therefore this proposal keeps the strong s3=0.50 setting from rank 1 and adopts l3=34.75 from the nearby rank 3 evidence, which should move the high resonance closer to 4.50 GHz while preserving deep matching in both bands.",
+    "error": null
+  },
+  {
+    "iteration": 6,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 34.9,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "The best-ranked designs form a narrow cluster with a=115.00, b=50.00, l1=22.50, l2=15.00, s1=0.80, s2=4.00, s3=0.50, and f_l=11.00. The rank 1 sample at l3=35.00 is already strong, while lower l3 values in this cluster tend to move the second resonance down toward 4.50 GHz. Setting l3=34.90 is a conservative shift from rank 1 toward the 34.75 value that produced a 4.52 GHz second resonance in rank 3, while keeping s3=0.50 to retain the deepest observed high-band target match. This should improve the 4.50 GHz resonance alignment with minimal risk to the already good 2.45 GHz match."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.9,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.9,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "The best-ranked designs form a narrow cluster with a=115.00, b=50.00, l1=22.50, l2=15.00, s1=0.80, s2=4.00, s3=0.50, and f_l=11.00. The rank 1 sample at l3=35.00 is already strong, while lower l3 values in this cluster tend to move the second resonance down toward 4.50 GHz. Setting l3=34.90 is a conservative shift from rank 1 toward the 34.75 value that produced a 4.52 GHz second resonance in rank 3, while keeping s3=0.50 to retain the deepest observed high-band target match. This should improve the 4.50 GHz resonance alignment with minimal risk to the already good 2.45 GHz match.",
+    "error": null
+  },
+  {
+    "iteration": 7,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 35.0,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "The highest-ranked supplied summary uses this geometry and reports actual resonances at 2.45 GHz and 4.53 GHz with target S11 values of -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, so both fixed-target thresholds are already met. This proposal retains the strongest observed geometry as a low-risk candidate, because nearby top candidates show that small changes in l3 and s3 tend to move the 4.50 GHz match closer to the -15 dB limit rather than deepening it, while this geometry keeps a substantial margin at the low band and a clear high-band match."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.8,
+      "b": 50.14,
+      "l1": 25.23,
+      "l2": 14.47,
+      "l3": 33.91,
+      "s1": 0.83,
+      "s2": 3.64,
+      "s3": 0.39,
+      "f_l": 10.93
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": 0.15977705473918857,
+      "b": 0.03476834844925336,
+      "l1": 0.9115898076902684,
+      "l2": -0.5291238017345283,
+      "l3": -0.3629717150511589,
+      "s1": 0.3054388713198799,
+      "s2": -0.4542419293522011,
+      "s3": -0.7961959932703426,
+      "f_l": -0.07409510202523184
+    },
+    "rationale": "The highest-ranked supplied summary uses this geometry and reports actual resonances at 2.45 GHz and 4.53 GHz with target S11 values of -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, so both fixed-target thresholds are already met. This proposal retains the strongest observed geometry as a low-risk candidate, because nearby top candidates show that small changes in l3 and s3 tend to move the 4.50 GHz match closer to the -15 dB limit rather than deepening it, while this geometry keeps a substantial margin at the low band and a clear high-band match.",
+    "error": null
+  },
+  {
+    "iteration": 7,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 34.75,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.4,
+        "f_l": 11.0
+      },
+      "rationale": "This candidate is drawn directly from a high-ranked supplied summary that retains the same substrate and slot dimensions as the leading family but reduces l3 from 35.00 mm to 34.75 mm and s3 from 0.50 mm to 0.40 mm. In the evaluated evidence that change produced actual resonances at 2.49 GHz and 4.52 GHz with target S11 values of -19.91 dB at 2.45 GHz and -15.27 dB at 4.50 GHz, so the high-band resonance is slightly closer to 4.50 GHz while both target S11 values remain below -15.00 dB. It is proposed as a second plausible design to improve the high-band resonance position without over-perturbing the useful leading geometry."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.75,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.4,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 111.28,
+      "b": 51.72,
+      "l1": 21.43,
+      "l2": 14.23,
+      "l3": 36.28,
+      "s1": 0.78,
+      "s2": 3.7,
+      "s3": 0.43,
+      "f_l": 10.33
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": -0.7441568148732354,
+      "b": 0.4305265872800892,
+      "l1": -0.35818637374633955,
+      "l2": -0.7651863178569367,
+      "l3": 0.5102014754448743,
+      "s1": -0.24307849548342042,
+      "s2": -0.37166383954386917,
+      "s3": 0.24360082418919227,
+      "f_l": -0.6654457321358827
+    },
+    "rationale": "This candidate is drawn directly from a high-ranked supplied summary that retains the same substrate and slot dimensions as the leading family but reduces l3 from 35.00 mm to 34.75 mm and s3 from 0.50 mm to 0.40 mm. In the evaluated evidence that change produced actual resonances at 2.49 GHz and 4.52 GHz with target S11 values of -19.91 dB at 2.45 GHz and -15.27 dB at 4.50 GHz, so the high-band resonance is slightly closer to 4.50 GHz while both target S11 values remain below -15.00 dB. It is proposed as a second plausible design to improve the high-band resonance position without over-perturbing the useful leading geometry.",
+    "error": null
+  },
+  {
+    "iteration": 8,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 35.0,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "The top-ranked supplied geometry already satisfies the objective: it exhibits two resonances at 2.45 GHz and 4.53 GHz with target S11 values of -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz. Retaining these dimensions is the lowest-risk candidate because the complete measured result is directly known from the supplied evidence, and all values remain in their legal ranges."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 117.01,
+      "b": 49.27,
+      "l1": 23.89,
+      "l2": 14.23,
+      "l3": 36.73,
+      "s1": 0.81,
+      "s2": 3.3,
+      "s3": 0.63,
+      "f_l": 11.86
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": 0.4013980790780465,
+      "b": -0.18363752415189483,
+      "l1": 0.46313889309958856,
+      "l2": -0.7734407334721833,
+      "l3": 0.5770571363352739,
+      "s1": 0.06692974533946705,
+      "s2": -0.8766801484857505,
+      "s3": 0.9538167318637896,
+      "f_l": 0.8589793613463672
+    },
+    "rationale": "The top-ranked supplied geometry already satisfies the objective: it exhibits two resonances at 2.45 GHz and 4.53 GHz with target S11 values of -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz. Retaining these dimensions is the lowest-risk candidate because the complete measured result is directly known from the supplied evidence, and all values remain in their legal ranges.",
+    "error": null
+  },
+  {
+    "iteration": 8,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 34.75,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.4,
+        "f_l": 11.0
+      },
+      "rationale": "Among the high-ranked samples with the same substrate and feed-line cluster, reducing l3 from 35.00 mm to 34.75 mm and s3 from 0.50 mm to 0.40 mm produced an upper resonance at 4.52 GHz, closer to the 4.50 GHz target, while maintaining a lower resonance at 2.49 GHz. Its target S11 values were -19.91 dB at 2.45 GHz and -15.27 dB at 4.50 GHz, both below the -15.00 dB threshold, so this design is proposed as an alternative that improves the high-band resonance position."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.75,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.4,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 110.09,
+      "b": 47.26,
+      "l1": 24.14,
+      "l2": 15.0,
+      "l3": 34.0,
+      "s1": 0.75,
+      "s2": 4.54,
+      "s3": 0.31,
+      "f_l": 11.07
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": -0.9823935638765819,
+      "b": -0.6839737930922993,
+      "l1": 0.5463727748055451,
+      "l2": 0.9149934203173555,
+      "l3": -0.2498345288787025,
+      "s1": -0.5333154387964254,
+      "s2": 0.6763727370651638,
+      "s3": -0.6173031850489523,
+      "f_l": 0.06630384946044132
+    },
+    "rationale": "Among the high-ranked samples with the same substrate and feed-line cluster, reducing l3 from 35.00 mm to 34.75 mm and s3 from 0.50 mm to 0.40 mm produced an upper resonance at 4.52 GHz, closer to the 4.50 GHz target, while maintaining a lower resonance at 2.49 GHz. Its target S11 values were -19.91 dB at 2.45 GHz and -15.27 dB at 4.50 GHz, both below the -15.00 dB threshold, so this design is proposed as an alternative that improves the high-band resonance position.",
+    "error": null
+  },
+  {
+    "iteration": 9,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 35.0,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "The rank-1 sample provides the strongest available evidence: it has two detected resonances at 2.45 GHz and 4.53 GHz, and its fixed-target S11 values are -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, so this exact geometry already satisfies the dual-band target. Keeping all dimensions unchanged is a low-risk candidate whose measured behavior already meets the desired resonance positions and target matching thresholds."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 116.94,
+      "b": 49.62,
+      "l1": 21.72,
+      "l2": 14.62,
+      "l3": 37.93,
+      "s1": 0.76,
+      "s2": 4.73,
+      "s3": 0.44,
+      "f_l": 11.22
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": 0.38722379581558664,
+      "b": -0.09527726656133284,
+      "l1": -0.2596227838657783,
+      "l2": -0.38269328204406317,
+      "l3": 0.9776522204852174,
+      "s1": -0.4224119381087845,
+      "s2": 0.9122998147256163,
+      "s3": -0.46381635521819486,
+      "f_l": 0.22318829130966877
+    },
+    "rationale": "The rank-1 sample provides the strongest available evidence: it has two detected resonances at 2.45 GHz and 4.53 GHz, and its fixed-target S11 values are -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, so this exact geometry already satisfies the dual-band target. Keeping all dimensions unchanged is a low-risk candidate whose measured behavior already meets the desired resonance positions and target matching thresholds.",
+    "error": null
+  },
+  {
+    "iteration": 9,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 35.1,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "This design makes one small change from the rank-1 geometry by increasing l3 from 35.00 mm to 35.10 mm. The rank-1 sample already places the upper resonance at 4.53 GHz and target S11 at 4.50 GHz is -15.46 dB, but moving the upper resonance slightly downward toward 4.50 GHz may improve the fixed-target match. All other dimensions are retained because the rank-1 lower resonance at 2.45 GHz and its deep target S11 of -26.44 dB should remain stable with such a small adjustment."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.1,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.1,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "This design makes one small change from the rank-1 geometry by increasing l3 from 35.00 mm to 35.10 mm. The rank-1 sample already places the upper resonance at 4.53 GHz and target S11 at 4.50 GHz is -15.46 dB, but moving the upper resonance slightly downward toward 4.50 GHz may improve the fixed-target match. All other dimensions are retained because the rank-1 lower resonance at 2.45 GHz and its deep target S11 of -26.44 dB should remain stable with such a small adjustment.",
+    "error": null
+  },
+  {
+    "iteration": 10,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 35.0,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "Rank 1 already exhibits both required resonances, with a detected low resonance at 2.45 GHz and a high resonance at 4.53 GHz, and its target S11 values are -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, both below -15.00 dB. Because it is the highest-ranked evaluated configuration and no other top-20 sample shows a better balance of resonance placement and target matching, this proposal retains its geometry exactly as the primary candidate."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 114.6,
+      "b": 50.56,
+      "l1": 25.09,
+      "l2": 14.77,
+      "l3": 37.91,
+      "s1": 0.88,
+      "s2": 3.94,
+      "s3": 0.47,
+      "f_l": 10.95
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": -0.08079632035182693,
+      "b": 0.14016736723456336,
+      "l1": 0.8628789623003705,
+      "l2": -0.22676900343792283,
+      "l3": 0.9708997088684166,
+      "s1": 0.7828718464590108,
+      "s2": -0.07140875320270568,
+      "s3": -0.20263145528609972,
+      "f_l": -0.048138321526684624
+    },
+    "rationale": "Rank 1 already exhibits both required resonances, with a detected low resonance at 2.45 GHz and a high resonance at 4.53 GHz, and its target S11 values are -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, both below -15.00 dB. Because it is the highest-ranked evaluated configuration and no other top-20 sample shows a better balance of resonance placement and target matching, this proposal retains its geometry exactly as the primary candidate.",
+    "error": null
+  },
+  {
+    "iteration": 10,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 34.95,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "Rank 1 and rank 3 provide a narrow stable basin around l3=35.00 mm with all other shared dimensions fixed. Rank 1 has the deep low-band target S11 of -26.44 dB at 2.45 GHz and high-band target S11 of -15.46 dB at 4.50 GHz; rank 3 uses l3=34.90 mm and still gives -25.11 dB at 2.45 GHz and -15.25 dB at 4.50 GHz. This proposal sets l3=34.95 mm, the midpoint between those two observed conditions, to keep the lower resonance very close to 2.45 GHz while preserving the high-band matching margin."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.95,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.95,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "Rank 1 and rank 3 provide a narrow stable basin around l3=35.00 mm with all other shared dimensions fixed. Rank 1 has the deep low-band target S11 of -26.44 dB at 2.45 GHz and high-band target S11 of -15.46 dB at 4.50 GHz; rank 3 uses l3=34.90 mm and still gives -25.11 dB at 2.45 GHz and -15.25 dB at 4.50 GHz. This proposal sets l3=34.95 mm, the midpoint between those two observed conditions, to keep the lower resonance very close to 2.45 GHz while preserving the high-band matching margin.",
+    "error": null
+  },
+  {
+    "iteration": 11,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 35.0,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "The rank-1 evaluated sample provides the strongest measured evidence: it reports two resonances at 2.45 GHz and 4.53 GHz, with fixed-target S11 of -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, both below the required -15 dB. This geometry is also centered in the dense top-ranked cluster of designs with a=115 mm, b=50 mm, l1=22.50 mm, l2=15.00 mm, and f_l=11.00 mm, where small l3 and s3 changes preserve dual resonance and matching. The proposal keeps that successful measured point unchanged to exploit the best observed balance between low- and high-band matching."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 110.21,
+      "b": 52.38,
+      "l1": 21.2,
+      "l2": 15.0,
+      "l3": 33.89,
+      "s1": 0.82,
+      "s2": 3.22,
+      "s3": 0.59,
+      "f_l": 10.09
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": -0.9582651058956748,
+      "b": 0.5939645356986782,
+      "l1": -0.43422088477951215,
+      "l2": 0.10781001258293088,
+      "l3": -0.37104636918723743,
+      "s1": 0.19489702789793606,
+      "s2": -0.9709458773262172,
+      "s3": 0.6197141744082126,
+      "f_l": -0.9075291252513547
+    },
+    "rationale": "The rank-1 evaluated sample provides the strongest measured evidence: it reports two resonances at 2.45 GHz and 4.53 GHz, with fixed-target S11 of -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, both below the required -15 dB. This geometry is also centered in the dense top-ranked cluster of designs with a=115 mm, b=50 mm, l1=22.50 mm, l2=15.00 mm, and f_l=11.00 mm, where small l3 and s3 changes preserve dual resonance and matching. The proposal keeps that successful measured point unchanged to exploit the best observed balance between low- and high-band matching.",
+    "error": null
+  },
+  {
+    "iteration": 11,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 35.05,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "This candidate makes a small interpolation from the leading rank-1 geometry by increasing lower-slot length l3 from 35.00 mm to 35.05 mm. The change is bracketed by the rank-1 sample with l3=35.00 mm and the rank-4 sample with l3=35.10 mm, both of which produce dual resonances near 2.45-4.53 GHz and fixed-target S11 values below -15 dB at 2.45 GHz and 4.50 GHz. The chosen point stays within this successful neighborhood and is therefore a plausible low-risk tuning step that may slightly shift the lower-band resonance while preserving the required high-band match."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.05,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.05,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "This candidate makes a small interpolation from the leading rank-1 geometry by increasing lower-slot length l3 from 35.00 mm to 35.05 mm. The change is bracketed by the rank-1 sample with l3=35.00 mm and the rank-4 sample with l3=35.10 mm, both of which produce dual resonances near 2.45-4.53 GHz and fixed-target S11 values below -15 dB at 2.45 GHz and 4.50 GHz. The chosen point stays within this successful neighborhood and is therefore a plausible low-risk tuning step that may slightly shift the lower-band resonance while preserving the required high-band match.",
+    "error": null
+  },
+  {
+    "iteration": 12,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 35.0,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "This proposal preserves the strongest evaluated geometry in the supplied top-20 evidence. The highest-ranked sample with a=115.00, b=50.00, l1=22.50, l2=15.00, l3=35.00, s1=0.80, s2=4.00, s3=0.50, and f_l=11.00 produced two valid resonances and target S11 values near -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, already satisfying the -15 dB target at both fixed frequencies. Nearby variations in the ranked evidence show smaller high-band margins, so keeping these parameters unchanged is the best evidence-backed candidate for maintaining strong dual-band matching."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 118.68,
+      "b": 50.88,
+      "l1": 24.55,
+      "l2": 14.88,
+      "l3": 32.5,
+      "s1": 0.77,
+      "s2": 3.71,
+      "s3": 0.61,
+      "f_l": 11.71
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": 0.7353651891730273,
+      "b": 0.2207600227990374,
+      "l1": 0.6836157225697048,
+      "l2": -0.1225217524531872,
+      "l3": -0.8340120700874312,
+      "s1": -0.28458199039991694,
+      "s2": -0.3579014387324633,
+      "s3": 0.8131616843906548,
+      "f_l": 0.7127293150843528
+    },
+    "rationale": "This proposal preserves the strongest evaluated geometry in the supplied top-20 evidence. The highest-ranked sample with a=115.00, b=50.00, l1=22.50, l2=15.00, l3=35.00, s1=0.80, s2=4.00, s3=0.50, and f_l=11.00 produced two valid resonances and target S11 values near -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, already satisfying the -15 dB target at both fixed frequencies. Nearby variations in the ranked evidence show smaller high-band margins, so keeping these parameters unchanged is the best evidence-backed candidate for maintaining strong dual-band matching.",
+    "error": null
+  },
+  {
+    "iteration": 12,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 34.75,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.4,
+        "f_l": 11.0
+      },
+      "rationale": "This proposal uses a closely related top-ranked geometry to shift the upper resonance closer to 4.50 GHz. The evaluated sample with a=115.00, b=50.00, l1=22.50, l2=15.00, l3=34.75, s1=0.80, s2=4.00, s3=0.40, and f_l=11.00 showed resonances near 2.49 GHz and 4.52 GHz, with target S11 values still below -15 dB at both 2.45 GHz and 4.50 GHz. The small reductions in l3 and s3 relative to the best observed design appear to pull the upper resonance slightly downward while retaining adequate low-band matching."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.75,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.4,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.51,
+      "b": 51.59,
+      "l1": 22.66,
+      "l2": 14.49,
+      "l3": 35.9,
+      "s1": 0.83,
+      "s2": 4.51,
+      "s3": 0.33,
+      "f_l": 11.53
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": 0.10196739449214265,
+      "b": 0.39666604034093655,
+      "l1": 0.0542537815577242,
+      "l2": -0.5051042097892617,
+      "l3": 0.38393153770970057,
+      "s1": 0.2996095238050369,
+      "s2": 0.6415319347350379,
+      "s3": -0.5171533677344842,
+      "f_l": 0.52671667989616
+    },
+    "rationale": "This proposal uses a closely related top-ranked geometry to shift the upper resonance closer to 4.50 GHz. The evaluated sample with a=115.00, b=50.00, l1=22.50, l2=15.00, l3=34.75, s1=0.80, s2=4.00, s3=0.40, and f_l=11.00 showed resonances near 2.49 GHz and 4.52 GHz, with target S11 values still below -15 dB at both 2.45 GHz and 4.50 GHz. The small reductions in l3 and s3 relative to the best observed design appear to pull the upper resonance slightly downward while retaining adequate low-band matching.",
+    "error": null
+  },
+  {
+    "iteration": 13,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 35.0,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "The highest-ranked supplied geometry used these exact dimensions and produced two resonances at 2.45 GHz and 4.53 GHz, with target S11 values of -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, both exceeding the required -15 dB threshold. Nearby evaluated variants with small changes in l3 or s3 generally did not improve the 4.50 GHz target match and sometimes degraded it, so retaining this exact combination is the safest proposal for satisfying the dual-band goal."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 111.24,
+      "b": 50.07,
+      "l1": 23.3,
+      "l2": 14.33,
+      "l3": 32.96,
+      "s1": 0.82,
+      "s2": 4.75,
+      "s3": 0.38,
+      "f_l": 11.24
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": -0.7518736063612053,
+      "b": 0.016788330132682994,
+      "l1": 0.26713374603683016,
+      "l2": -0.6652689554173481,
+      "l3": -0.681348989670848,
+      "s1": 0.22061547547564597,
+      "s2": 0.9339187707266121,
+      "s3": -0.864125132758579,
+      "f_l": 0.23700977696476366
+    },
+    "rationale": "The highest-ranked supplied geometry used these exact dimensions and produced two resonances at 2.45 GHz and 4.53 GHz, with target S11 values of -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, both exceeding the required -15 dB threshold. Nearby evaluated variants with small changes in l3 or s3 generally did not improve the 4.50 GHz target match and sometimes degraded it, so retaining this exact combination is the safest proposal for satisfying the dual-band goal.",
+    "error": null
+  },
+  {
+    "iteration": 13,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 35.1,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "This proposal keeps the same low-band structure as the best-ranked design but moves l3 slightly to 35.10 mm while keeping s3 at 0.50 mm. A supplied top-ranked geometry with this l3 value and otherwise identical dimensions still produced two resonances, with target S11 values of -24.14 dB at 2.45 GHz and -15.35 dB at 4.50 GHz, so both fixed target matches remain below the required -15.00 dB threshold. The small l3 adjustment is plausible because the high resonance remained near 4.53 GHz and the low band stayed deeply matched."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.1,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 117.7,
+      "b": 46.07,
+      "l1": 23.57,
+      "l2": 15.0,
+      "l3": 33.51,
+      "s1": 0.73,
+      "s2": 4.76,
+      "s3": 0.43,
+      "f_l": 10.35
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": 0.5402558359505063,
+      "b": -0.9835977404991616,
+      "l1": 0.3578105732859127,
+      "l2": 0.6226691435566791,
+      "l3": -0.5309506988579233,
+      "s1": -0.7257903241981869,
+      "s2": 0.949415522216966,
+      "s3": -0.46589376826050266,
+      "f_l": -0.6462119190820899
+    },
+    "rationale": "This proposal keeps the same low-band structure as the best-ranked design but moves l3 slightly to 35.10 mm while keeping s3 at 0.50 mm. A supplied top-ranked geometry with this l3 value and otherwise identical dimensions still produced two resonances, with target S11 values of -24.14 dB at 2.45 GHz and -15.35 dB at 4.50 GHz, so both fixed target matches remain below the required -15.00 dB threshold. The small l3 adjustment is plausible because the high resonance remained near 4.53 GHz and the low band stayed deeply matched.",
+    "error": null
+  },
+  {
+    "iteration": 14,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 34.9,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "The highest-ranked evidence is densely clustered around a=115.00 mm, b=50.00 mm, l1=22.50 mm, l2=15.00 mm, s1=0.80 mm, s2=4.00 mm, and f_l=11.00 mm. Within this cluster, setting l3=34.90 mm and s3=0.50 mm kept two resonances near 2.46 GHz and 4.53 GHz while the fixed-target S11 values remained clearly below -15 dB, with the 2.45 GHz target strongly matched. This proposal therefore preserves the successful local dual-resonance behavior and uses the observed l3 value that balances low-band depth and high-band matching margin; the small l3 reduction from 35.00 mm is intended to keep the lower resonance close to 2.45 GHz without weakening the upper target S11."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.9,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 114.2,
+      "b": 49.39,
+      "l1": 22.54,
+      "l2": 14.82,
+      "l3": 36.7,
+      "s1": 0.89,
+      "s2": 3.9,
+      "s3": 0.53,
+      "f_l": 11.8
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": -0.15902576051605033,
+      "b": -0.15247051163390402,
+      "l1": 0.013797073962095174,
+      "l2": -0.17662005469487174,
+      "l3": 0.6008644198037676,
+      "s1": 0.9319647865786769,
+      "s2": -0.12775238940280076,
+      "s3": 0.1990552169161175,
+      "f_l": 0.8035914172582042
+    },
+    "rationale": "The highest-ranked evidence is densely clustered around a=115.00 mm, b=50.00 mm, l1=22.50 mm, l2=15.00 mm, s1=0.80 mm, s2=4.00 mm, and f_l=11.00 mm. Within this cluster, setting l3=34.90 mm and s3=0.50 mm kept two resonances near 2.46 GHz and 4.53 GHz while the fixed-target S11 values remained clearly below -15 dB, with the 2.45 GHz target strongly matched. This proposal therefore preserves the successful local dual-resonance behavior and uses the observed l3 value that balances low-band depth and high-band matching margin; the small l3 reduction from 35.00 mm is intended to keep the lower resonance close to 2.45 GHz without weakening the upper target S11.",
+    "error": null
+  },
+  {
+    "iteration": 14,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.55,
+        "l2": 15.0,
+        "l3": 34.75,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.4,
+        "f_l": 11.0
+      },
+      "rationale": "A neighboring top-ranked geometry with the same substrate and slot parameters but l3=34.75 mm and s3=0.40 mm moved the upper resonance to about 4.52 GHz and kept the 4.50 GHz target S11 below -15 dB, although its lower resonance was near 2.49 GHz. To pull that lower resonance back toward 2.45 GHz, this proposal slightly increases l1 from 22.50 mm to 22.55 mm, consistent with the direction in the supplied evidence where larger l1 values are associated with lower first-resonance frequencies. All other coordinates remain in the successful local cluster, so the proposal is intended to improve the lower resonance position while retaining the improved upper-resonance position and matching margin."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.55,
+      "l2": 15.0,
+      "l3": 34.75,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.4,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.55,
+      "l2": 15.0,
+      "l3": 34.75,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.4,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "A neighboring top-ranked geometry with the same substrate and slot parameters but l3=34.75 mm and s3=0.40 mm moved the upper resonance to about 4.52 GHz and kept the 4.50 GHz target S11 below -15 dB, although its lower resonance was near 2.49 GHz. To pull that lower resonance back toward 2.45 GHz, this proposal slightly increases l1 from 22.50 mm to 22.55 mm, consistent with the direction in the supplied evidence where larger l1 values are associated with lower first-resonance frequencies. All other coordinates remain in the successful local cluster, so the proposal is intended to improve the lower resonance position while retaining the improved upper-resonance position and matching margin.",
+    "error": null
+  },
+  {
+    "iteration": 15,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 35.0,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "The highest-ranked evaluated summary combined a 2.45 GHz actual resonance with a deep low-band target S11 and a nearby 4.53 GHz resonance whose interpolated 4.50 GHz S11 was already below the required -15 dB. These dimensions are retained because they provide the strongest observed dual-band match among the supplied summaries, and nearby lower-slot perturbations in the supplied evidence did not show a consistently deeper 4.50 GHz target, so this exact geometry is proposed as a low-risk candidate to satisfy the fixed-target matching goal."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.72,
+      "b": 47.62,
+      "l1": 24.09,
+      "l2": 15.0,
+      "l3": 32.98,
+      "s1": 0.76,
+      "s2": 4.2,
+      "s3": 0.63,
+      "f_l": 11.07
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": 0.14404776148709564,
+      "b": -0.594283996178665,
+      "l1": 0.5299637417184091,
+      "l2": 0.7519089888643282,
+      "l3": -0.6737198338743362,
+      "s1": -0.4482462951985642,
+      "s2": 0.2551512853947835,
+      "s3": 0.9060543281985844,
+      "f_l": 0.06960773772380358
+    },
+    "rationale": "The highest-ranked evaluated summary combined a 2.45 GHz actual resonance with a deep low-band target S11 and a nearby 4.53 GHz resonance whose interpolated 4.50 GHz S11 was already below the required -15 dB. These dimensions are retained because they provide the strongest observed dual-band match among the supplied summaries, and nearby lower-slot perturbations in the supplied evidence did not show a consistently deeper 4.50 GHz target, so this exact geometry is proposed as a low-risk candidate to satisfy the fixed-target matching goal.",
+    "error": null
+  },
+  {
+    "iteration": 15,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 34.75,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.4,
+        "f_l": 11.0
+      },
+      "rationale": "This candidate maintains the upper-slot dimensions and feed length of the highest-ranked design to preserve the low-band match near 2.45 GHz, while adopting the lower-slot length 34.75 mm and lower-slot width 0.40 mm from the strong evaluated summary that exhibited an actual high resonance at 4.50 GHz with target S11 below -15 dB. The combined change is intended to shift the high resonance slightly downward from values around 4.53 GHz toward exactly 4.50 GHz without disturbing the low band, making both fixed-target S11 thresholds more likely to be met."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 34.75,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.4,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 111.64,
+      "b": 52.52,
+      "l1": 23.84,
+      "l2": 15.0,
+      "l3": 33.97,
+      "s1": 0.72,
+      "s2": 4.45,
+      "s3": 0.46,
+      "f_l": 10.1
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": -0.6717729155099825,
+      "b": 0.6307065268422773,
+      "l1": 0.4468284866466308,
+      "l2": 0.43107586313243074,
+      "l3": -0.26099008209110663,
+      "s1": -0.814099095133584,
+      "s2": 0.5621737646389009,
+      "s3": 0.45227360658176363,
+      "f_l": -0.9036002863186914
+    },
+    "rationale": "This candidate maintains the upper-slot dimensions and feed length of the highest-ranked design to preserve the low-band match near 2.45 GHz, while adopting the lower-slot length 34.75 mm and lower-slot width 0.40 mm from the strong evaluated summary that exhibited an actual high resonance at 4.50 GHz with target S11 below -15 dB. The combined change is intended to shift the high resonance slightly downward from values around 4.53 GHz toward exactly 4.50 GHz without disturbing the low band, making both fixed-target S11 thresholds more likely to be met.",
+    "error": null
+  },
+  {
+    "iteration": 16,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 35.0,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "The rank:1 evaluated sample shows a dual-resonance response with the lower resonance at 2.45 GHz and -26.44 dB and the upper resonance at 4.53 GHz and -15.61 dB; its target S11 values are -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, both below the -15.00 dB threshold. I retain these exact dimensions because this is the highest-ranked geometry in the supplied evidence and it already places the lower resonance exactly at 2.45 GHz while keeping the fixed 4.50 GHz target match below -15.00 dB. The small upper resonance offset to 4.53 GHz is acceptable because the interpolated 4.50 GHz value remains -15.46 dB, so preserving this geometry gives a strong low-band match and a compliant high-band match."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 113.31,
+      "b": 51.77,
+      "l1": 20.2,
+      "l2": 15.0,
+      "l3": 33.92,
+      "s1": 0.79,
+      "s2": 3.75,
+      "s3": 0.46,
+      "f_l": 10.76
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": -0.33762830087669693,
+      "b": 0.44272463253285177,
+      "l1": -0.767975179191497,
+      "l2": 0.700887828287456,
+      "l3": -0.3590055079528536,
+      "s1": -0.0957801513439751,
+      "s2": -0.3146654861607845,
+      "s3": -0.28916406442850473,
+      "f_l": -0.24167233200543703
+    },
+    "rationale": "The rank:1 evaluated sample shows a dual-resonance response with the lower resonance at 2.45 GHz and -26.44 dB and the upper resonance at 4.53 GHz and -15.61 dB; its target S11 values are -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, both below the -15.00 dB threshold. I retain these exact dimensions because this is the highest-ranked geometry in the supplied evidence and it already places the lower resonance exactly at 2.45 GHz while keeping the fixed 4.50 GHz target match below -15.00 dB. The small upper resonance offset to 4.53 GHz is acceptable because the interpolated 4.50 GHz value remains -15.46 dB, so preserving this geometry gives a strong low-band match and a compliant high-band match.",
+    "error": null
+  },
+  {
+    "iteration": 16,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.55,
+        "l2": 15.0,
+        "l3": 34.75,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.4,
+        "f_l": 11.0
+      },
+      "rationale": "The rank:2 evaluated sample keeps nearly the same substrate and feed dimensions but changes l1 to 22.55 mm, shortens l3 from the rank:1 sample's 35.00 mm to 34.75 mm, and reduces s3 from 0.50 mm to 0.40 mm. In the evidence this combination shifts the upper resonance to 4.50 GHz and gives target S11 values of -15.27 dB at 4.50 GHz and -20.01 dB at 2.45 GHz, both below the -15.00 dB threshold. I propose this geometry to center the upper actual resonance exactly at 4.50 GHz while maintaining a comfortable low-band target match that still meets the design goal."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.55,
+      "l2": 15.0,
+      "l3": 34.75,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.4,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 118.54,
+      "b": 53.39,
+      "l1": 20.41,
+      "l2": 14.48,
+      "l3": 33.53,
+      "s1": 0.74,
+      "s2": 3.81,
+      "s3": 0.34,
+      "f_l": 11.39
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": 0.707620562133983,
+      "b": 0.8477354780687589,
+      "l1": -0.7128593649735344,
+      "l2": -0.5249277775213552,
+      "l3": -0.40620879144558253,
+      "s1": -0.6148118436252901,
+      "s2": -0.23952019578830952,
+      "s3": -0.4178753446075649,
+      "f_l": 0.38511499987961595
+    },
+    "rationale": "The rank:2 evaluated sample keeps nearly the same substrate and feed dimensions but changes l1 to 22.55 mm, shortens l3 from the rank:1 sample's 35.00 mm to 34.75 mm, and reduces s3 from 0.50 mm to 0.40 mm. In the evidence this combination shifts the upper resonance to 4.50 GHz and gives target S11 values of -15.27 dB at 4.50 GHz and -20.01 dB at 2.45 GHz, both below the -15.00 dB threshold. I propose this geometry to center the upper actual resonance exactly at 4.50 GHz while maintaining a comfortable low-band target match that still meets the design goal.",
+    "error": null
+  }
+]

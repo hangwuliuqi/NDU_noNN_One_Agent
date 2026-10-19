@@ -1,0 +1,1507 @@
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 8:43:52 下午  8月 31, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 56379. 
+        [info] Project Chen2006_CPW_DualSlot_0831_2043_i0001 has been created.
+        [info] Added design '0831_2043_i0001' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+-- Message Window --
+Stopping Batch Run: 8:44:08 下午  8月 31, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 9:05:32 下午  8月 31, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 64372. 
+        [info] Project Chen2006_CPW_DualSlot_0831_2105_i0001 has been created.
+        [info] Added design '0831_2105_i0001' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2104\hfss_projects\Chen2006_CPW_DualSlot_0831_2105_i0001.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2104\hfss_projects\Chen2006_CPW_DualSlot_0831_2105_i0001.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.024726390838623047
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0831_2105_i0001 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 8.0m 41.0s
+        [info] Project Chen2006_CPW_DualSlot_0831_2105_i0001 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2104\hfss_projects\Chen2006_CPW_DualSlot_0831_2105_i0001.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2104\hfss_projects\Chen2006_CPW_DualSlot_0831_2105_i0001.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.05860757827758789
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 9:14:49 下午  8月 31, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 9:22:35 下午  8月 31, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 56453. 
+        [info] Project Chen2006_CPW_DualSlot_0831_2122_i0001 has been created.
+        [info] Added design '0831_2122_i0001' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2122_i0001.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2122_i0001.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.01511240005493164
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0831_2122_i0001 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 8.0m 31.0s
+        [info] Project Chen2006_CPW_DualSlot_0831_2122_i0001 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2122_i0001.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2122_i0001.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.05674171447753906
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 9:31:22 下午  8月 31, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 9:34:08 下午  8月 31, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 51612. 
+        [info] Project Chen2006_CPW_DualSlot_0831_2133_i0002 has been created.
+        [info] Added design '0831_2133_i0002' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2133_i0002.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2133_i0002.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.01769423484802246
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0831_2133_i0002 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 16.0m 21.0s
+        [info] Project Chen2006_CPW_DualSlot_0831_2133_i0002 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2133_i0002.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2133_i0002.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.047846317291259766
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 9:50:45 下午  8月 31, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 9:52:37 下午  8月 31, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 58473. 
+        [info] Project Chen2006_CPW_DualSlot_0831_2152_i0003 has been created.
+        [info] Added design '0831_2152_i0003' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2152_i0003.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2152_i0003.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.018432140350341797
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0831_2152_i0003 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 16.0m 15.0s
+        [info] Project Chen2006_CPW_DualSlot_0831_2152_i0003 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2152_i0003.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2152_i0003.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.04070258140563965
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 10:09:08 下午  8月 31, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 10:13:23 下午  8月 31, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 62621. 
+        [info] Project Chen2006_CPW_DualSlot_0831_2213_i0004 has been created.
+        [info] Added design '0831_2213_i0004' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2213_i0004.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2213_i0004.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.015697002410888672
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0831_2213_i0004 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 12.0m 27.0s
+        [info] Project Chen2006_CPW_DualSlot_0831_2213_i0004 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2213_i0004.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2213_i0004.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.030423402786254883
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 10:26:06 下午  8月 31, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 10:36:17 下午  8月 31, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 63452. 
+        [info] Project Chen2006_CPW_DualSlot_0831_2236_i0005 has been created.
+        [info] Added design '0831_2236_i0005' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2236_i0005.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2236_i0005.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.01650524139404297
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0831_2236_i0005 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 12.0m 22.0s
+        [info] Project Chen2006_CPW_DualSlot_0831_2236_i0005 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2236_i0005.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2236_i0005.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.04570794105529785
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 10:48:55 下午  8月 31, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 10:55:56 下午  8月 31, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 58634. 
+        [info] Project Chen2006_CPW_DualSlot_0831_2255_i0006 has been created.
+        [info] Added design '0831_2255_i0006' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2255_i0006.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2255_i0006.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.01675868034362793
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0831_2255_i0006 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 12.0m 21.0s
+        [info] Project Chen2006_CPW_DualSlot_0831_2255_i0006 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2255_i0006.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2255_i0006.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.044930458068847656
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 11:08:32 下午  8月 31, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 11:11:43 下午  8月 31, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 49384. 
+        [info] Project Chen2006_CPW_DualSlot_0831_2311_i0007 has been created.
+        [info] Added design '0831_2311_i0007' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2311_i0007.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2311_i0007.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.015524625778198242
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0831_2311_i0007 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 8.0m 34.0s
+        [info] Project Chen2006_CPW_DualSlot_0831_2311_i0007 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2311_i0007.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2311_i0007.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.041037797927856445
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 11:20:33 下午  8月 31, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 11:24:53 下午  8月 31, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 58678. 
+        [info] Project Chen2006_CPW_DualSlot_0831_2324_i0008 has been created.
+        [info] Added design '0831_2324_i0008' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2324_i0008.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2324_i0008.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.015074491500854492
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0831_2324_i0008 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 16.0m 21.0s
+        [info] Project Chen2006_CPW_DualSlot_0831_2324_i0008 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2324_i0008.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2324_i0008.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.03467583656311035
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 11:41:30 下午  8月 31, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 11:45:26 下午  8月 31, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 64392. 
+        [info] Project Chen2006_CPW_DualSlot_0831_2345_i0009 has been created.
+        [info] Added design '0831_2345_i0009' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2345_i0009.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2345_i0009.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.01593494415283203
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0831_2345_i0009 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 8.0m 30.0s
+        [info] Project Chen2006_CPW_DualSlot_0831_2345_i0009 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2345_i0009.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2345_i0009.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.03354501724243164
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 11:54:12 下午  8月 31, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 11:56:19 下午  8月 31, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 49291. 
+        [info] Project Chen2006_CPW_DualSlot_0831_2356_i0010 has been created.
+        [info] Added design '0831_2356_i0010' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2356_i0010.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2356_i0010.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.015195846557617188
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0831_2356_i0010 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 12.0m 32.0s
+        [info] Project Chen2006_CPW_DualSlot_0831_2356_i0010 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2356_i0010.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0831_2356_i0010.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.0409703254699707
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 12:09:07 上午  9月 01, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 12:14:52 上午  9月 01, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 63760. 
+        [info] Project Chen2006_CPW_DualSlot_0901_0014_i0011 has been created.
+        [info] Added design '0901_0014_i0011' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0014_i0011.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0014_i0011.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.016326904296875
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0901_0014_i0011 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 12.0m 31.0s
+        [info] Project Chen2006_CPW_DualSlot_0901_0014_i0011 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0014_i0011.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0014_i0011.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.04140901565551758
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 12:27:39 上午  9月 01, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 12:31:52 上午  9月 01, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 59586. 
+        [info] Project Chen2006_CPW_DualSlot_0901_0031_i0012 has been created.
+        [info] Added design '0901_0031_i0012' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0031_i0012.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0031_i0012.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.01781606674194336
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0901_0031_i0012 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 16.0m 19.0s
+        [info] Project Chen2006_CPW_DualSlot_0901_0031_i0012 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0031_i0012.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0031_i0012.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.02803945541381836
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 12:48:26 上午  9月 01, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 12:53:53 上午  9月 01, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 54348. 
+        [info] Project Chen2006_CPW_DualSlot_0901_0053_i0013 has been created.
+        [info] Added design '0901_0053_i0013' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0053_i0013.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0053_i0013.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.01597428321838379
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0901_0053_i0013 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 12.0m 28.0s
+        [info] Project Chen2006_CPW_DualSlot_0901_0053_i0013 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0053_i0013.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0053_i0013.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.038486480712890625
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 1:06:37 上午  9月 01, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 1:08:45 上午  9月 01, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 59632. 
+        [info] Project Chen2006_CPW_DualSlot_0901_0108_i0014 has been created.
+        [info] Added design '0901_0108_i0014' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0108_i0014.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0108_i0014.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.01684737205505371
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0901_0108_i0014 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 12.0m 29.0s
+        [info] Project Chen2006_CPW_DualSlot_0901_0108_i0014 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0108_i0014.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0108_i0014.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.035536766052246094
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 1:21:30 上午  9月 01, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 1:24:21 上午  9月 01, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 63391. 
+        [info] Project Chen2006_CPW_DualSlot_0901_0124_i0015 has been created.
+        [info] Added design '0901_0124_i0015' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0124_i0015.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0124_i0015.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.01623368263244629
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0901_0124_i0015 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 12.0m 23.0s
+        [info] Project Chen2006_CPW_DualSlot_0901_0124_i0015 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0124_i0015.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0124_i0015.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.050113677978515625
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 1:37:01 上午  9月 01, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 1:39:05 上午  9月 01, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 62896. 
+        [info] Project Chen2006_CPW_DualSlot_0901_0138_i0016 has been created.
+        [info] Added design '0901_0138_i0016' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0138_i0016.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0138_i0016.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.016527891159057617
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0901_0138_i0016 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 12.0m 29.0s
+        [info] Project Chen2006_CPW_DualSlot_0901_0138_i0016 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0138_i0016.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0138_i0016.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.03035879135131836
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 1:51:51 上午  9月 01, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 1:54:59 上午  9月 01, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50373. 
+        [info] Project Chen2006_CPW_DualSlot_0901_0154_i0017 has been created.
+        [info] Added design '0901_0154_i0017' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0154_i0017.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0154_i0017.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.0156857967376709
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0901_0154_i0017 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 12.0m 30.0s
+        [info] Project Chen2006_CPW_DualSlot_0901_0154_i0017 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0154_i0017.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0154_i0017.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.04974818229675293
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 2:07:44 上午  9月 01, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 2:09:48 上午  9月 01, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 50599. 
+        [info] Project Chen2006_CPW_DualSlot_0901_0209_i0018 has been created.
+        [info] Added design '0901_0209_i0018' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0209_i0018.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0209_i0018.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.016837358474731445
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0901_0209_i0018 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 12.0m 32.0s
+        [info] Project Chen2006_CPW_DualSlot_0901_0209_i0018 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0209_i0018.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0209_i0018.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.03802084922790527
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 2:22:37 上午  9月 01, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 2:24:53 上午  9月 01, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 63089. 
+        [info] Project Chen2006_CPW_DualSlot_0901_0224_i0019 has been created.
+        [info] Added design '0901_0224_i0019' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0224_i0019.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0224_i0019.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.01726245880126953
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0901_0224_i0019 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 8.0m 29.0s
+        [info] Project Chen2006_CPW_DualSlot_0901_0224_i0019 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0224_i0019.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0224_i0019.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.03701162338256836
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 2:33:37 上午  9月 01, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 2:51:45 上午  9月 01, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 63925. 
+        [info] Project Chen2006_CPW_DualSlot_0901_0251_i0020 has been created.
+        [info] Added design '0901_0251_i0020' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0251_i0020.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0251_i0020.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.016391277313232422
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0901_0251_i0020 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 8.0m 30.0s
+        [info] Project Chen2006_CPW_DualSlot_0901_0251_i0020 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0251_i0020.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0251_i0020.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.04311418533325195
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 3:00:31 上午  9月 01, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 3:04:43 上午  9月 01, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 62310. 
+        [info] Project Chen2006_CPW_DualSlot_0901_0304_i0021 has been created.
+        [info] Added design '0901_0304_i0021' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0304_i0021.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0304_i0021.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.015372991561889648
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0901_0304_i0021 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 16.0m 19.0s
+        [info] Project Chen2006_CPW_DualSlot_0901_0304_i0021 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0304_i0021.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0304_i0021.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.043321847915649414
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 3:21:18 上午  9月 01, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 9:18:15 上午  9月 01, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 65033. 
+        [info] Project Chen2006_CPW_DualSlot_0901_0918_i0022 has been created.
+        [info] Added design '0901_0918_i0022' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0918_i0022.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0918_i0022.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.02587747573852539
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0901_0918_i0022 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 14.0m 57.0s
+        [info] Project Chen2006_CPW_DualSlot_0901_0918_i0022 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0918_i0022.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_0918_i0022.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.055055856704711914
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 9:33:44 上午  9月 01, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 10:31:07 上午  9月 01, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 51802. 
+        [info] Project Chen2006_CPW_DualSlot_0901_1030_i0023 has been created.
+        [info] Added design '0901_1030_i0023' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_1030_i0023.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_1030_i0023.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.019924163818359375
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0901_1030_i0023 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 15.0m 54.0s
+        [info] Project Chen2006_CPW_DualSlot_0901_1030_i0023 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_1030_i0023.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_1030_i0023.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.06759405136108398
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 10:47:18 上午  9月 01, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 11:28:32 上午  9月 01, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 64339. 
+        [info] Project Chen2006_CPW_DualSlot_0901_1128_i0024 has been created.
+        [info] Added design '0901_1128_i0024' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_1128_i0024.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_1128_i0024.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.027783632278442383
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0901_1128_i0024 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 8.0m 36.0s
+        [info] Project Chen2006_CPW_DualSlot_0901_1128_i0024 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_1128_i0024.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_1128_i0024.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.05677962303161621
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 11:37:25 上午  9月 01, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 12:13:41 下午  9月 01, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 57936. 
+        [info] Project Chen2006_CPW_DualSlot_0901_1213_i0025 has been created.
+        [info] Added design '0901_1213_i0025' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_1213_i0025.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_1213_i0025.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.025634765625
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0901_1213_i0025 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 23.0m 55.0s
+        [info] Project Chen2006_CPW_DualSlot_0901_1213_i0025 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_1213_i0025.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0831_2121\hfss_projects\Chen2006_CPW_DualSlot_0901_1213_i0025.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.050811767578125
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 12:37:55 下午  9月 01, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 7:27:05 下午  9月 02, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 55542. 
+        [info] Project Chen2006_CPW_DualSlot_0902_1926_i0001 has been created.
+        [info] Added design '0902_1926_i0001' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0902_1925\hfss_projects\Chen2006_CPW_DualSlot_0902_1926_i0001.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0902_1925\hfss_projects\Chen2006_CPW_DualSlot_0902_1926_i0001.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.024742841720581055
+        [info] Linear step sweep Sweep_2to6GHz has been correctly created
+        [info] Project Chen2006_CPW_DualSlot_0902_1926_i0001 Saved correctly
+        [info] Solving design setup Setup2p6GHz
+        [info] Design setup Setup2p6GHz solved correctly in 0.0h 8.0m 31.0s
+        [info] Project Chen2006_CPW_DualSlot_0902_1926_i0001 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0902_1925\hfss_projects\Chen2006_CPW_DualSlot_0902_1926_i0001.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NN_Direct_update\runtime_0902_1925\hfss_projects\Chen2006_CPW_DualSlot_0902_1926_i0001.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.03755927085876465
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+-- Message Window --
+Stopping Batch Run: 7:36:10 下午  9月 02, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 12:28:38 下午  9月 27, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 59607. 
+        [info] Project NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1 has been created.
+        [info] Added design 'NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.020012855529785156
+        [info] Linear step sweep Sweep_NDUNSC has been correctly created
+        [info] Project NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1 Saved correctly
+        [info] Solving design setup Setup_NDUNSC
+        [error] Error in Solving Setup Setup_NDUNSC
+        [info] Design setup Setup_NDUNSC solved correctly in 0.0h 0.0m 8.0s
+        [info] Project NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.030425548553466797
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] Solution Data failed to load. Check solution, context or expression.
+        [warning] No Data Available. Check inputs
+        [info] Closing the AEDT Project NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1
+        [info] Project NDUNSC_s11_desktop_93891b7b_2eb4_4790_90dd_a0f0c9fc71c3_attempt_1 closed correctly
+-- Message Window --
+Stopping Batch Run: 12:29:22 下午  9月 27, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 12:34:52 下午  9月 27, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 56869. 
+        [info] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1 has been created.
+        [info] Added design 'NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.015996456146240234
+        [info] Linear step sweep Sweep_NDUNSC has been correctly created
+        [info] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1 Saved correctly
+        [info] Solving design setup Setup_NDUNSC
+        [error] Error in Solving Setup Setup_NDUNSC
+        [info] Design setup Setup_NDUNSC solved correctly in 0.0h 0.0m 6.0s
+        [info] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.037503957748413086
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] Solution Data failed to load. Check solution, context or expression.
+        [warning] No Data Available. Check inputs
+        [info] Closing the AEDT Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1
+        [info] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_1 closed correctly
+-- Message Window --
+Stopping Batch Run: 12:35:14 下午  9月 27, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 12:35:45 下午  9月 27, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 64231. 
+        [info] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2 has been created.
+        [info] Added design 'NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.019019126892089844
+        [info] Linear step sweep Sweep_NDUNSC has been correctly created
+        [info] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2 Saved correctly
+        [info] Solving design setup Setup_NDUNSC
+        [error] Error in Solving Setup Setup_NDUNSC
+        [info] Design setup Setup_NDUNSC solved correctly in 0.0h 0.0m 6.0s
+        [info] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.04200100898742676
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] Solution Data failed to load. Check solution, context or expression.
+        [warning] No Data Available. Check inputs
+        [info] Closing the AEDT Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2
+        [info] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_2 closed correctly
+-- Message Window --
+Stopping Batch Run: 12:36:06 下午  9月 27, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 12:36:37 下午  9月 27, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 62021. 
+        [info] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3 has been created.
+        [info] Added design 'NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.014855623245239258
+        [info] Linear step sweep Sweep_NDUNSC has been correctly created
+        [info] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3 Saved correctly
+        [info] Solving design setup Setup_NDUNSC
+        [error] Error in Solving Setup Setup_NDUNSC
+        [info] Design setup Setup_NDUNSC solved correctly in 0.0h 0.0m 7.0s
+        [info] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.0344998836517334
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] Solution Data failed to load. Check solution, context or expression.
+        [warning] No Data Available. Check inputs
+        [info] Closing the AEDT Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3
+        [info] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_3 closed correctly
+-- Message Window --
+Stopping Batch Run: 12:36:58 下午  9月 27, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 12:37:26 下午  9月 27, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 52529. 
+        [info] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4 has been created.
+        [info] Added design 'NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.012367010116577148
+        [info] Linear step sweep Sweep_NDUNSC has been correctly created
+        [info] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4 Saved correctly
+        [info] Solving design setup Setup_NDUNSC
+        [error] Error in Solving Setup Setup_NDUNSC
+        [info] Design setup Setup_NDUNSC solved correctly in 0.0h 0.0m 6.0s
+        [info] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.040520668029785156
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [warning] Solution Data failed to load. Check solution, context or expression.
+        [warning] No Data Available. Check inputs
+        [info] Closing the AEDT Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4
+        [info] Project NDUNSC_s11_desktop_d0c515ab_88d8_4be3_847d_7f9da516edc6_attempt_4 closed correctly
+-- Message Window --
+Stopping Batch Run: 12:37:48 下午  9月 27, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 9:38:17 下午  9月 29, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 65219. 
+        [info] Project gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1 has been created.
+        [info] Added design 'gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.015000343322753906
+        [info] Linear step sweep Sweep_NDUNSC has been correctly created
+        [info] Project gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1 Saved correctly
+        [info] Solving design setup Setup_NDUNSC
+        [error] Error in Solving Setup Setup_NDUNSC
+        [info] Design setup Setup_NDUNSC solved correctly in 0.0h 2.0m 28.0s
+        [info] Project gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.051999807357788086
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+        [info] Closing the AEDT Project gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1
+        [info] Project gpt_s11_acce09e6_322a_4a24_99e4_f223c41ceeb5_attempt_1 closed correctly
+-- Message Window --
+Stopping Batch Run: 9:41:01 下午  9月 29, 2026
+ 
+Ansys Electronics Desktop Version 2023.2.0, Build: 2023-05-16 22:25:19
+Location: E:\ProgramFlies\AnasysElectronicsSuite2023R2\AnsysEM\v232\Win64\ansysedt.exe
+Non Graphical Mode: No Project??
+Starting Batch Run: 9:41:33 下午  9月 29, 2026
+Running as user: DESKTOP-D023302\Administrator
+Temp directory: F:\HFSSTempProject\Documents\Ansoft
+Project directory: F:\HFSSProject\Ansoft
+-- Message Window --
+      *Global - Messages
+        [info] GRPC server running on port: 49709. 
+        [info] Project gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1 has been created.
+        [info] Added design 'gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1' of type HFSS.
+        [info] AEDT objects correctly read
+        [info] Modeler class has been initialized! Elapsed time: 0m 0sec
+        [info] Materials class has been initialized! Elapsed time: 0m 0sec
+        [info] Adding new material to the Project Library: FR4_Chen2006
+        [info] Material has been added in Desktop.
+        [info] Parsing design objects. This operation can take time
+        [info] Refreshing bodies from Object Info
+        [info] Bodies Info Refreshed Elapsed time: 0m 0sec
+        [info] 3D Modeler objects parsed. Elapsed time: 0m 0sec
+        [info] Boundary Radiation Radiation has been created.
+        [info] Boundary Wave Port P1_CPW has been created.
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.014002084732055664
+        [info] Linear step sweep Sweep_NDUNSC has been correctly created
+        [info] Project gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1 Saved correctly
+        [info] Solving design setup Setup_NDUNSC
+        [error] Error in Solving Setup Setup_NDUNSC
+        [info] Design setup Setup_NDUNSC solved correctly in 0.0h 0.0m 59.0s
+        [info] Project gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1 Saved correctly
+        [info] Parsing E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1.aedt.
+        [info] File E:\ProjectData\LLM_Optimazation\LLMO_python\CPW_double_slot\NDU_noNN_single_can\hfss_remote\gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1.aedt correctly loaded. Elapsed time: 0m 0sec
+        [info] aedt file load time 0.05903458595275879
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] PostProcessor class has been initialized! Elapsed time: 0m 0sec
+        [info] Post class has been initialized! Elapsed time: 0m 0sec
+        [warning] No report category provided. Automatically identified Modal Solution Data
+        [info] Solution Data Correctly Loaded.
+        [info] Closing the AEDT Project gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1
+        [info] Project gpt_s11_afda2a80_8c6e_45a2_b154_d4be40a1e398_attempt_1 closed correctly
+-- Message Window --
+Stopping Batch Run: 9:42:48 下午  9月 29, 2026

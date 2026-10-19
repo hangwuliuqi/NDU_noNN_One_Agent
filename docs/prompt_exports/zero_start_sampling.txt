@@ -1,0 +1,90 @@
+SYSTEM MESSAGE
+You are a precise antenna design agent. Return only valid JSON.
+
+USER MESSAGE
+# role
+
+you are the sampling guidance module in a closed-loop dual-band antenna optimization system.
+
+# design goal
+
+1. Use the 0 available evaluated samples, sorted by ranking score when present, together with electromagnetic design knowledge. Carefully reason about how the antenna geometry parameters and their coordinated changes can affect current paths, coupling, impedance matching, and the measured S11 response. Then propose new candidate designs that aim to satisfy the design goal.
+2. The target design should have two actual resonance frequencies: one between 2.44 and 2.46 GHz, and the other between 4.49 and 4.51 GHz. At each fixed target frequency, the measured S11 must be no higher than -15.00 dB.
+3. For evaluated samples, `score:R` combines actual resonance-position quality and fixed-target S11 quality and ranks the 0 available samples; it is not the success condition.
+4. Generate exactly 2 legal candidate designs intended to improve resonance positions and target-frequency S11 and meet the design goal after real electromagnetic evaluation.
+
+# legal variable ranges
+
+every generated numerical value must use two decimal places and remain inside its corresponding closed interval:
+
+- `a`: [100.00, 150.00] mm; substrate length.
+- `b`: [40.00, 80.00] mm; substrate width.
+- `l1`: [15.00, 45.00] mm; upper slot length.
+- `l2`: [5.00, 15.00] mm; middle slot length.
+- `l3`: [15.00, 45.00] mm; lower slot length.
+- `s1`: [0.50, 1.50] mm; upper slot width.
+- `s2`: [2.00, 10.00] mm; middle slot width.
+- `s3`: [0.20, 1.60] mm; lower slot width.
+- `f_l`: [5.00, 15.00] mm; feed-line length.
+
+# how to read an evaluated sample and its ranking score
+
+compact sample contract:
+- one complete evaluated sample occupies one line. `+` only separates sections; it is not arithmetic addition.
+- `rank:n` is the sample's position after sorting the available evaluated samples by ranking score `R` from highest to lowest. `rank:1` is the highest-ranked sample, `rank:2` is the second highest, and a smaller rank number is better. rank is comparative, not a persistent sample identifier.
+- `geom={a:value,b:value,l1:value,l2:value,l3:value,s1:value,s2:value,s3:value,f_l:value}` is the evaluated antenna geometry in mm: `a`=substrate length, `b`=substrate width, `l1`=upper slot length, `l2`=middle slot length, `l3`=lower slot length, `s1`=upper slot width, `s2`=middle slot width, `s3`=lower slot width, and `f_l`=feed-line length. every value is continuous; no low/mid/high category is implied.
+- `n_res` is the number of valid resonances detected from the complete measured s11 curve after the configured prominence, separation, and saddle checks. it is exactly 0, 1, or 2 and must equal the number of pairs in `res`.
+- `res` contains the detected actual resonance valleys. each pair is `[resonance_frequency_ghz,s11_at_that_resonance_db]`. a more-negative second value means a deeper resonance valley. when two pairs exist they are ordered by increasing frequency.
+- the valid resonance forms are `{n_res:0} + {res:[]}`, `{n_res:1} + {res:[[f1,s11_1]]}`, and `{n_res:2} + {res:[[f1,s11_1],[f2,s11_2]]}`. for `n_res:1`, the sole resonance is not automatically assigned to the low band; compare its frequency with both 2.45 ghz and 4.50 ghz. absent resonances are omitted, not represented by physical zero values, and must not be invented.
+- `target_s11={2.45:s_low,4.50:s_high}` contains s11 linearly interpolated at the two fixed target frequencies. these values drive the numerical score and are distinct from resonance-valley depths in `res`. at either target, a more-negative value is better; a value at or below -15.00 db satisfies that band's matching threshold.
+- `score:R` is used only for ranking. The detector stores the first and second frequency-ordered resonance slots as `r1` and `r2`; when two resonances exist, `r1` is the lower-frequency detected valley and `r2` is the higher-frequency detected valley. A missing slot is stored internally as `0.00 GHz` only so the ranking formula can be evaluated; this placeholder is not a measured or physical resonance and is omitted from `res`. The frequency quality is `q_r1=exp(-abs(r1-2.45)/0.05)`, `q_r2=exp(-abs(r2-4.50)/0.05)`, and `q_f=(q_r1+q_r2)/2`. If there is only one detected resonance, do not assume it belongs to the low band: `r1` is simply the one detected slot, `r2` is the missing-slot placeholder, and `n_res` plus `res` remain the authoritative evidence about what was detected. The target-frequency S11 quality is `q_s=0.500000*q_band(s_low)+0.500000*q_band(s_high)`, where `q_band(s)=clip((-s)/abs(-15.00),0,1)`. Here `s_low` and `s_high` are S11 values interpolated at the fixed target frequencies, not at the actual resonance minima. Finally `R=0.600000*q_f+0.400000*q_s`. R is not a success condition.
+- complete example: `{rank:1} + {geom:{a:125.00,b:60.00,l1:30.00,l2:10.00,l3:30.00,s1:1.00,s2:5.00,s3:0.90,f_l:10.00}} + {n_res:2} + {res:[[2.48,-15.40],[4.47,-15.70]]} + {target_s11:{2.45:-12.80,4.50:-13.90}} + {score:0.667500}`.
+
+# evidence policy
+
+No evaluated samples are available yet. Generate exploratory designs from electromagnetic design knowledge and the legal variable ranges; do not claim any measured evidence.
+
+- use available evaluated-sample summaries as empirical evidence when present, and combine them with established electromagnetic design knowledge for qualitative design reasoning. Do not invent measured results.
+- do not invent simulated values, predicted scores, resonance frequencies, or s11 values.
+- use comparisons between available geometries and measured metrics when enough comparable samples exist; otherwise choose exploratory coordinated changes based on electromagnetic knowledge.
+- every variable must remain inside its global range.
+- every geometry item is a continuous numerical value in mm. 
+- always read `n_res` together with the variable-length `res` list. `n_res = 0` or `n_res = 1` means that the required dual-resonance objective has not yet been satisfied.
+- absent resonances are omitted from `res`. never infer a physical value for an omitted resonance.
+- use lowercase variable names only: `a`, `b`, `l1`, `l2`, `l3`, `s1`, `s2`, `s3`, `f_l`.
+- provide one coherent prose paragraph in `rationale` for every proposal. Explain the geometry choices and parameter adjustments using electromagnetic design knowledge and comparisons of the 0 ranked samples when comparisons are possible. Describe how the proposed coordinated geometry changes could plausibly affect current paths, coupling, impedance matching, and S11; treat these as design considerations rather than measured outcomes. Do not invent sample identifiers or unmeasured results, and make the paragraph readable to a human reviewer. Do not use bullets, fragments, nested JSON, or separate rationale fields.
+- explain why each proposal could plausibly improve the target-frequency match, using measured evidence only when available.
+
+# top-k evaluated samples 
+
+the section contains 0 ranked evaluated sample lines, or `none` when no sample exists. compare aligned fields only when lines are present; identifiers and provenance are omitted:
+
+none
+
+# required output
+
+return only one valid json object with this exact shape:
+
+```json
+{
+  "proposals": [
+    {
+      "variables": {
+        "a": 125.00,
+        "b": 60.00,
+        "l1": 30.00,
+        "l2": 10.00,
+        "l3": 30.00,
+        "s1": 1.00,
+        "s2": 5.00,
+        "s3": 0.90,
+        "f_l": 10.00
+      },
+      "rationale": "one coherent human-readable english paragraph explaining why this complete design is proposed"
+    }
+  ]
+}
+```
+
+the array length must be exactly 2. every proposal must contain all nine variables, and every numerical value must be reported to two decimal places. `rationale` must be one non-empty prose paragraph. do not include markdown fences or commentary outside the json object.
+

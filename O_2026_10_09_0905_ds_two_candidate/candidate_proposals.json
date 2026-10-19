@@ -1,0 +1,294 @@
+[
+  {
+    "iteration": 1,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 35.0,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "The rank:1 evaluated geometry already exhibits two actual resonances at 2.45 GHz and 4.53 GHz, with target S11 values of -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, so it already satisfies the dual-band matching target. Preserving this exact geometry is the lowest-risk proposal because the high-band match is only slightly below -15.00 dB and any unnecessary change could disturb the upper resonance."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 114.48,
+      "b": 49.44,
+      "l1": 23.32,
+      "l2": 14.92,
+      "l3": 33.71,
+      "s1": 0.73,
+      "s2": 3.2,
+      "s3": 0.53,
+      "f_l": 10.99
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": true,
+    "perturbation_applied": true,
+    "perturbation_random_numbers": {
+      "a": -0.10358494765871273,
+      "b": -0.14122310251608594,
+      "l1": 0.2719994660926641,
+      "l2": -0.08161636875332423,
+      "l3": -0.43001885295089637,
+      "s1": -0.737087489472233,
+      "s2": -0.9969116605653388,
+      "s3": 0.1858166032578661,
+      "f_l": -0.013031393932956714
+    },
+    "rationale": "The rank:1 evaluated geometry already exhibits two actual resonances at 2.45 GHz and 4.53 GHz, with target S11 values of -26.44 dB at 2.45 GHz and -15.46 dB at 4.50 GHz, so it already satisfies the dual-band matching target. Preserving this exact geometry is the lowest-risk proposal because the high-band match is only slightly below -15.00 dB and any unnecessary change could disturb the upper resonance.",
+    "error": null
+  },
+  {
+    "iteration": 1,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 116.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 36.0,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "This design starts from the rank:1 geometry, which already places the lower resonance exactly at 2.45 GHz and the upper resonance at 4.53 GHz. A small increase in substrate length from 115.00 mm to 116.00 mm and lower slot length from 35.00 mm to 36.00 mm is intended to shift the upper resonance slightly downward toward 4.50 GHz, improving the target-frequency S11 margin at 4.50 GHz while the strong measured low-band match near 2.45 GHz is expected to remain acceptable."
+    },
+    "original_variables": {
+      "a": 116.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 36.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 116.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 36.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "This design starts from the rank:1 geometry, which already places the lower resonance exactly at 2.45 GHz and the upper resonance at 4.53 GHz. A small increase in substrate length from 115.00 mm to 116.00 mm and lower slot length from 35.00 mm to 36.00 mm is intended to shift the upper resonance slightly downward toward 4.50 GHz, improving the target-frequency S11 margin at 4.50 GHz while the strong measured low-band match near 2.45 GHz is expected to remain acceptable.",
+    "error": null
+  },
+  {
+    "iteration": 2,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 35.0,
+        "s1": 0.8,
+        "s2": 3.9,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "The rank-1 sample already places the lower resonance exactly at 2.45 GHz and the upper resonance at 4.53 GHz, with both fixed-target S11 values below -15 dB, but the upper resonance is slightly high. Since the rank-9 sample uses a lower middle-slot width s2 of 3.20 mm and exhibits a second resonance at 4.31 GHz, a small reduction of s2 from 4.00 mm to 3.90 mm is proposed here to nudge the upper resonance closer to 4.50 GHz while retaining the rank-1 dimensions that anchor the lower band at 2.45 GHz."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 3.9,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 3.9,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "The rank-1 sample already places the lower resonance exactly at 2.45 GHz and the upper resonance at 4.53 GHz, with both fixed-target S11 values below -15 dB, but the upper resonance is slightly high. Since the rank-9 sample uses a lower middle-slot width s2 of 3.20 mm and exhibits a second resonance at 4.31 GHz, a small reduction of s2 from 4.00 mm to 3.90 mm is proposed here to nudge the upper resonance closer to 4.50 GHz while retaining the rank-1 dimensions that anchor the lower band at 2.45 GHz.",
+    "error": null
+  },
+  {
+    "iteration": 2,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.8,
+        "l2": 15.0,
+        "l3": 35.1,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "This proposal keeps the strong rank-1 geometry but applies a small coordinated change intended to improve the upper resonance position. The rank-9 comparison suggests that a slightly larger upper-slot length l1 is associated with a lower second resonance, so l1 is increased from 22.50 mm to 22.80 mm; because rank-2 shows that increasing lower-slot length l3 lowers the first resonance, l3 is also increased slightly from 35.00 mm to 35.10 mm to help keep the low resonance near 2.45 GHz if the l1 change perturbs it. All other dimensions are held at the rank-1 values that already give deep fixed-target matching at 2.45 GHz and near-threshold matching at 4.50 GHz."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.8,
+      "l2": 15.0,
+      "l3": 35.1,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.8,
+      "l2": 15.0,
+      "l3": 35.1,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "This proposal keeps the strong rank-1 geometry but applies a small coordinated change intended to improve the upper resonance position. The rank-9 comparison suggests that a slightly larger upper-slot length l1 is associated with a lower second resonance, so l1 is increased from 22.50 mm to 22.80 mm; because rank-2 shows that increasing lower-slot length l3 lowers the first resonance, l3 is also increased slightly from 35.00 mm to 35.10 mm to help keep the low resonance near 2.45 GHz if the l1 change perturbs it. All other dimensions are held at the rank-1 values that already give deep fixed-target matching at 2.45 GHz and near-threshold matching at 4.50 GHz.",
+    "error": null
+  },
+  {
+    "iteration": 3,
+    "candidate_index": 1,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.6,
+        "l2": 15.0,
+        "l3": 35.0,
+        "s1": 0.8,
+        "s2": 4.0,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "This design starts from the highest-ranked evaluated geometry with resonances at 2.45 and 4.53 GHz and target S11 values of -26.44 dB and -15.46 dB. The upper resonance is slightly above 4.50 GHz, while the rank-3 geometry with l1 increased from 22.50 to 22.80 and l3 increased to 35.10 has its upper resonance at 4.44 GHz and still meets the 4.50 GHz target. By increasing l1 only slightly to 22.60 while keeping l3 at 35.00, the design is intended to pull the upper resonance closer to 4.50 GHz without disturbing the low resonance near 2.45 GHz. The successful s2 value of 4.00 is retained because the rank-2 comparison with s2=3.90 weakened the 4.50 GHz target to -14.27 dB."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.6,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.6,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.0,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "This design starts from the highest-ranked evaluated geometry with resonances at 2.45 and 4.53 GHz and target S11 values of -26.44 dB and -15.46 dB. The upper resonance is slightly above 4.50 GHz, while the rank-3 geometry with l1 increased from 22.50 to 22.80 and l3 increased to 35.10 has its upper resonance at 4.44 GHz and still meets the 4.50 GHz target. By increasing l1 only slightly to 22.60 while keeping l3 at 35.00, the design is intended to pull the upper resonance closer to 4.50 GHz without disturbing the low resonance near 2.45 GHz. The successful s2 value of 4.00 is retained because the rank-2 comparison with s2=3.90 weakened the 4.50 GHz target to -14.27 dB.",
+    "error": null
+  },
+  {
+    "iteration": 3,
+    "candidate_index": 2,
+    "raw": {
+      "variables": {
+        "a": 115.0,
+        "b": 50.0,
+        "l1": 22.5,
+        "l2": 15.0,
+        "l3": 35.0,
+        "s1": 0.8,
+        "s2": 4.1,
+        "s3": 0.5,
+        "f_l": 11.0
+      },
+      "rationale": "This candidate keeps the highest-ranked geometry intact except for a small increase in the middle slot width from 4.00 mm to 4.10 mm. The supplied evidence shows that moving s2 from 3.90 mm to 4.00 mm in an otherwise identical layout improved the 4.50 GHz target S11 from -14.27 dB to -15.46 dB and also deepened the 2.45 GHz target, so a further small increase in s2 is a plausible way to improve the high-band match margin. The remaining dimensions are held at the values that already produced detected resonances near 2.45 and 4.53 GHz."
+    },
+    "original_variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.1,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "variables": {
+      "a": 115.0,
+      "b": 50.0,
+      "l1": 22.5,
+      "l2": 15.0,
+      "l3": 35.0,
+      "s1": 0.8,
+      "s2": 4.1,
+      "s3": 0.5,
+      "f_l": 11.0
+    },
+    "valid_after_repair": true,
+    "out_of_bounds": false,
+    "duplicate_with_history_or_round": false,
+    "perturbation_applied": false,
+    "perturbation_random_numbers": {},
+    "rationale": "This candidate keeps the highest-ranked geometry intact except for a small increase in the middle slot width from 4.00 mm to 4.10 mm. The supplied evidence shows that moving s2 from 3.90 mm to 4.00 mm in an otherwise identical layout improved the 4.50 GHz target S11 from -14.27 dB to -15.46 dB and also deepened the 2.45 GHz target, so a further small increase in s2 is a plausible way to improve the high-band match margin. The remaining dimensions are held at the values that already produced detected resonances near 2.45 and 4.53 GHz.",
+    "error": null
+  }
+]
